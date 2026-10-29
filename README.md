@@ -51,4 +51,4 @@ Answers live next to the work: an `ANSWERS.md` in each Module 0 folder, and a `s
 
 ## License
 
-MIT. Use it, copy it, change it, run it in your classroom or club. Just keep the [LICENSE](LICENSE) file with it. Each project is sized for one 2–3 hour session, or two shorter ones.
+[CC BY-NC 4.0](LICENSE). Use it, copy it, change it, run it in your classroom or club, for free. Give credit, and don't sell it or use it in anything you charge for. Each project is sized for one 2–3 hour session, or two shorter ones.
