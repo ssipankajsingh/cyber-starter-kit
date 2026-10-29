@@ -20,7 +20,8 @@
   font-size: 0.9rem !important;
 }
 
-// Students only need the .zip download.
-.page-header .btn[href*="tarball"] {
+// Students only need the .zip download. Hide every other header button
+// (View on GitHub, .tar.gz).
+.page-header .btn:not([href*="zipball"]) {
   display: none;
 }
