@@ -1,0 +1,11 @@
+# Settings for the website version of this kit (GitHub Pages).
+title: Cyber Starter Kit
+description: Free, hands-on cybersecurity and AI security projects for beginners. No coding background needed.
+theme: jekyll-theme-cayman
+show_downloads: true
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: false

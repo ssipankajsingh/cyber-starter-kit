@@ -4,6 +4,8 @@ A free, hands-on way to find out if cybersecurity, AI security or automation is 
 
 It's built for students in class 10 and up. You don't need to know any coding. You need a laptop, a few evenings, and some curiosity. By the end you'll have four small security tools you built yourself, and a decent idea of what people in these jobs actually do all day.
 
+**[Download the kit (ZIP)](https://github.com/ssipankajsingh/cyber-starter-kit/archive/refs/heads/main.zip)**, unzip it, and start with [Module 0](module-0/). Read the lessons here, and do the work in the files you downloaded.
+
 ## What's inside
 
 | Part | What you'll make | Time |
