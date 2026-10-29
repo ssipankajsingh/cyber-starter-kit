@@ -1,5 +1,7 @@
 # Answers: Security basics
 
+← [Kit home](../../)
+
 ## Part 1: Spot the clues
 
 Any five of these (there are more than five):

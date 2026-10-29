@@ -1,5 +1,7 @@
 # Python starter
 
+← [Kit home](../../)
+
 This isn't a coding course. You're going to learn just enough Python to do three small jobs that real security people do every week:
 
 1. Check whether a password is any good

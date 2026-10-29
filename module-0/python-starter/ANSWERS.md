@@ -1,5 +1,7 @@
 # Answers: Python starter
 
+← [Kit home](../../)
+
 Tried it yourself first? Good. Here you go.
 
 ## Lesson 1

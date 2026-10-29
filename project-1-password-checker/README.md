@@ -1,5 +1,7 @@
 # Project 1: Password strength checker
 
+← [Kit home](../)
+
 Most break-ins don't involve movie-style hacking. Someone just guesses a weak password, or uses one that leaked from another site. So the first tool you'll build is one that looks at a password and tells you, honestly, how easy it would be to guess.
 
 By the end you'll have a script that prints a report card like this:

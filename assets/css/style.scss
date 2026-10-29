@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Keep the banner small so the lesson starts on the first screen.
+.page-header {
+  padding: 1.25rem 1rem !important;
+}
+.page-header .project-name {
+  font-size: 1.75rem !important;
+  margin-bottom: 0.25rem !important;
+}
+.page-header .project-tagline {
+  font-size: 1rem !important;
+  margin-bottom: 0.75rem !important;
+}
+.page-header .btn {
+  padding: 0.4rem 0.9rem !important;
+  font-size: 0.9rem !important;
+}
+
+// Students only need the .zip download.
+.page-header .btn[href$=".tar.gz"] {
+  display: none;
+}

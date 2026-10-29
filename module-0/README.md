@@ -1,5 +1,7 @@
 # Module 0: The basics
 
+← [Kit home](../)
+
 About 3 hours, split into three parts. Do them in order if you can. If you're itching to write code, Part 3 works on its own.
 
 | Part | What it covers | Time |

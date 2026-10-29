@@ -1,5 +1,7 @@
 # AI basics
 
+← [Kit home](../../)
+
 About 45 minutes. By the end you'll know roughly how chatbots work, and, more importantly for us, why they can be tricked. That's the whole idea behind AI security, and you'll try it yourself in Project 4.
 
 ---

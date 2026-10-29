@@ -1,5 +1,7 @@
 # Project 4: Trick the chatbot
 
+← [Kit home](../)
+
 Companies are putting chatbots everywhere: help desks, shopping sites, school portals. Each one has hidden instructions about what it may and may not say. And as you saw in [AI basics](../module-0/ai-basics/), those instructions can often be talked around.
 
 In this project you'll do both sides of the job. First you're the attacker: get a chatbot to break its rules and leak a secret. Then you're the defender: write code that stops it happening again.

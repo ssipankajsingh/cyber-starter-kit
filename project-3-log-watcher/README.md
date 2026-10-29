@@ -1,5 +1,7 @@
 # Project 3: Log watcher
 
+← [Kit home](../)
+
 Remember the `admin` account getting hammered in Module 0, Lesson 3? That was 18 lines, and you could spot the problem by eye. Real systems write thousands of lines an hour. Nobody reads them all. Instead, security teams write rules that read the logs for them and only shout when something looks wrong.
 
 That's what you're building. Your script will read an evening's worth of login records, chart who failed the most, and raise alerts, including one for a login that really shouldn't have worked:

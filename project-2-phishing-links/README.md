@@ -1,5 +1,7 @@
 # Project 2: Spot the phishing link
 
+← [Kit home](../)
+
 Phishing is how most attacks begin: a message with a link that looks like it's from your bank or your school, but isn't. Security teams can't check every link by eye, so they use tools that look for the tell-tale signs automatically. You're going to build one.
 
 Your script will read a list of 20 links and sort each one into **TRUSTED**, **LOOKS OK**, **SUSPICIOUS** or **LIKELY PHISHING**, with reasons, like this:

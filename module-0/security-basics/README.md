@@ -1,5 +1,7 @@
 # Security basics
 
+← [Kit home](../../)
+
 About an hour. No code in this part, just the ideas you'll lean on in every project. Grab a notebook for the checks.
 
 ---

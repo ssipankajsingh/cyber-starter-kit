@@ -1,5 +1,7 @@
 # Answers: AI basics
 
+← [Kit home](../../)
+
 ## Part 1
 
 1. The bundle of patterns a computer learned from lots of examples. You feed it something new, and it uses those patterns to give an answer or a guess.
