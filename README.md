@@ -47,4 +47,8 @@ What you learn here is what defenders use to protect people. Only ever test thin
 
 ## For teachers and mentors
 
-Answers live next to the work: an `ANSWERS.md` in each Module 0 folder, and a `solution_*.py` file in each project. The "Make it yours" step at the end of each project has no solution on purpose. Each project is sized for one 2–3 hour session, or two shorter ones.
+Answers live next to the work: an `ANSWERS.md` in each Module 0 folder, and a `solution_*.py` file in each project. The "Make it yours" step at the end of each project has no solution on purpose.
+
+## License
+
+MIT. Use it, copy it, change it, run it in your classroom or club. Just keep the [LICENSE](LICENSE) file with it. Each project is sized for one 2–3 hour session, or two shorter ones.
