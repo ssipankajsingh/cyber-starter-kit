@@ -21,6 +21,6 @@
 }
 
 // Students only need the .zip download.
-.page-header .btn[href$=".tar.gz"] {
+.page-header .btn[href*="tarball"] {
   display: none;
 }
