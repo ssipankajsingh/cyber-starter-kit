@@ -1,0 +1,16 @@
+The attackers sent a fake email to the school.
+The email asked students to click a link.
+The link went to a fake login page.
+Attackers love weak passwords.
+A strong password is long and hard to guess.
+The defenders read the logs every morning.
+The logs showed many failed logins from one address.
+The alert went to the security team.
+The security team blocked the address.
+A good password is long and random.
+Attackers try common passwords first.
+The chatbot followed the hidden instructions.
+The chatbot leaked the secret code.
+The defenders added a filter to the chatbot.
+The filter blocked the fake email.
+Students learned to spot the fake link.

@@ -6,13 +6,13 @@ It's built for students in class 10 and up. You don't need to know any coding. Y
 
 ## What's inside
 
-| Part | What you'll make | Time | Status |
-|---|---|---|---|
-| [Module 0](module-0/) | Security basics, AI basics, and just enough Python to start building | ~3 hrs | Python starter ready |
-| [Project 1](project-1-password-checker/) | A password strength checker that prints a report card | 2–3 hrs | Ready |
-| Project 2 | A script that spots suspicious links in a list | 2–3 hrs | Coming soon |
-| Project 3 | A log watcher that catches someone guessing passwords | 2–3 hrs | Coming soon |
-| Project 4 | Trick a chatbot into breaking its rules, then defend it | 2–3 hrs | Coming soon |
+| Part | What you'll make | Time |
+|---|---|---|
+| [Module 0](module-0/) | Security basics, AI basics, and just enough Python to start building | ~3 hrs |
+| [Project 1](project-1-password-checker/) | A password strength checker that prints a report card | 2–3 hrs |
+| [Project 2](project-2-phishing-links/) | A script that spots suspicious links in a list | 2–3 hrs |
+| [Project 3](project-3-log-watcher/) | A log watcher that catches someone guessing passwords | 2–3 hrs |
+| [Project 4](project-4-trick-the-chatbot/) | Trick a chatbot into breaking its rules, then defend it | 2–3 hrs |
 
 Do them in order. Each one builds on the last.
 
@@ -47,4 +47,4 @@ What you learn here is what defenders use to protect people. Only ever test thin
 
 ## For teachers and mentors
 
-Answers live next to the work: `ANSWERS.md` in Module 0, and a `solution_*.py` file in each project. Each project is sized for one 2–3 hour session, or two shorter ones.
+Answers live next to the work: an `ANSWERS.md` in each Module 0 folder, and a `solution_*.py` file in each project. The "Make it yours" step at the end of each project has no solution on purpose. Each project is sized for one 2–3 hour session, or two shorter ones.
