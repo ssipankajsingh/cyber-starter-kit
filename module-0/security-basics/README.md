@@ -4,6 +4,8 @@
 
 About an hour. No code in this part, just the ideas you'll lean on in every project. Grab a notebook for the checks.
 
+**Watch first:** [a short video introduction to the ideas in this part](https://www.youtube.com/watch?v=ZQvq_nlGq7g). Then read on. The text goes into more detail, and the checks at the end are based on it.
+
 ---
 
 ## Part 1: How attacks actually happen (~30 min)
