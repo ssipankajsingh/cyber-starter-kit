@@ -16,7 +16,7 @@ It's built for students in class 10 and up. You don't need to know any coding. Y
 | [Project 3](project-3-log-watcher/) | A log watcher that catches someone guessing passwords | 2–3 hrs |
 | [Project 4](project-4-trick-the-chatbot/) | Trick a chatbot into breaking its rules, then defend it | 2–3 hrs |
 
-Do them in order. Each one builds on the last.
+Do them in order. Each one builds on the last. Keep your place with the [progress checklist](CHECKLIST.md), and if something breaks, [start here](TROUBLESHOOTING.md).
 
 ## How it works
 
