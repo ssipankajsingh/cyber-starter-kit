@@ -1,4 +1,4 @@
-nimbusbank.com
-kettlecart.com
-pixelpost.com
-starlinghigh.org
+nimbusbank.example
+kettlecart.example
+pixelpost.example
+starlinghigh.example

@@ -47,7 +47,7 @@ Dear Customer,
 We have detected unusual activity on you're account. To avoid
 permanent suspension you must verify your details immediately.
 
-Click here to verify: http://nimbusbank.com.account-verify.xyz/login
+Click here to verify: http://nimbusbank.example.account-verify.xyz/login
 
 If you do not respond within 24 hours your account and all money
 in it will be lost.

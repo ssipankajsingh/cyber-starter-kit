@@ -7,7 +7,7 @@
 Any five of these (there are more than five):
 
 - **The sender's address is wrong.** It's from `nimbusbank-secure-mail.xyz`, not the bank's own website.
-- **The link goes somewhere else.** Read the address from the end backwards: the real site is `account-verify.xyz`. The `nimbusbank.com` at the start is just decoration.
+- **The link goes somewhere else.** Read the address from the end backwards: the real site is `account-verify.xyz`. The `nimbusbank.example` at the start is just decoration.
 - **It uses `http`, not `https`.** A real bank login page would always be `https`.
 - **Panic and a deadline.** "URGENT!!", "24 hours", "all money will be lost". Pressure is there to stop you thinking.
 - **"Dear Customer".** Your real bank knows your name.

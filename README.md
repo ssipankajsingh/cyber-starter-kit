@@ -41,7 +41,7 @@ No paid tools, no sign-ups, and no internet needed once Python is installed.
 
 ## About the sample data
 
-Everything in the `sample_data` folders is made up for this kit: usernames, passwords, logs, links, all of it. None of it comes from a real company, school or person. Where IP addresses show up, they use ranges that are set aside for examples (like `192.0.2.x`), so they never point at anyone's real computer.
+Everything in the `sample_data` folders is made up for this kit: usernames, passwords, logs, links, all of it. None of it comes from a real company, school or person. Where IP addresses show up, they use ranges that are set aside for examples (like `192.0.2.x`), so they never point at anyone's real computer. The trusted company websites end in `.example`, which is reserved for made-up examples. The pretend scam sites use real-looking endings like `.xyz` and `.top` so students learn to spot them. They're only text in a file, and the scripts never visit them.
 
 ## Play fair
 

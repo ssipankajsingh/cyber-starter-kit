@@ -7,7 +7,7 @@ Phishing is how most attacks begin: a message with a link that looks like it's f
 Your script will read a list of 20 links and sort each one into **TRUSTED**, **LOOKS OK**, **SUSPICIOUS** or **LIKELY PHISHING**, with reasons, like this:
 
 ```
-[LIKELY PHISHING] http://nimbusbank.com.secure-verify.xyz/login
+[LIKELY PHISHING] http://nimbusbank.example.secure-verify.xyz/login
       - Mentions nimbusbank, but really goes to secure-verify.xyz
       - Uses http, not https, so the connection isn't encrypted
       - Uses pressure words: login, verify, secure
@@ -29,7 +29,7 @@ It also saves the whole report to a file you can share.
 | `sample_data/trusted_sites.txt` | Sites we know are genuine |
 | `solution_phishing_checker.py` | The finished version, for when you're properly stuck |
 
-All the companies here (Nimbus Bank, Kettlecart, Pixelpost, Starling High) are invented for this kit. **Don't paste any of these links into a browser.** Your script never visits them. It only reads the text, which is exactly how you want to handle a suspicious link.
+All the companies here (Nimbus Bank, Kettlecart, Pixelpost, Starling High) are invented for this kit. Their sites end in `.example`, a website ending that's set aside for made-up examples, so no real site can ever use it. (Real sites end in things like `.com`.) **Don't paste any of these links into a browser.** Your script never visits them. It only reads the text, which is exactly how you want to handle a suspicious link.
 
 ---
 
@@ -40,24 +40,24 @@ This is the most useful thing in this whole project, and it doesn't need any cod
 Take this link:
 
 ```
-http://nimbusbank.com.secure-verify.xyz/login
+http://nimbusbank.example.secure-verify.xyz/login
 ```
 
-Your eye goes to `nimbusbank.com` at the start, and you think "that's my bank". But that's not how website addresses work. The part that matters is the **host**: everything between `//` and the next `/`. And you read the host **from the right**:
+Your eye goes to `nimbusbank.example` at the start, and you think "that's my bank". But that's not how website addresses work. The part that matters is the **host**: everything between `//` and the next `/`. And you read the host **from the right**:
 
 ```
-nimbusbank.com.secure-verify.xyz
+nimbusbank.example.secure-verify.xyz
                └──────┬────────┘
              this is who owns it
 ```
 
-The last two pieces, `secure-verify.xyz`, are the real website. Whoever owns `secure-verify.xyz` can put anything they like in front of it, including `nimbusbank.com.`. This is called a **lookalike domain**, and it fools a lot of people.
+The last two pieces, `secure-verify.xyz`, are the real website. Whoever owns `secure-verify.xyz` can put anything they like in front of it, including `nimbusbank.example.`. This is called a **lookalike domain**, and it fools a lot of people.
 
 A few more signs that a link is dodgy:
 
 - **`http://` instead of `https://`.** The `s` means the connection is encrypted (scrambled so nobody in between can read it). Any real login page uses `https`.
 - **Numbers instead of a name**, like `http://192.0.2.15/...`. Real companies use names.
-- **An `@` sign.** In `https://pixelpost.com@203.0.113.9/signin`, the browser ignores everything before the `@`. You'd actually land on `203.0.113.9`.
+- **An `@` sign.** In `https://pixelpost.example@203.0.113.9/signin`, the browser ignores everything before the `@`. You'd actually land on `203.0.113.9`.
 - **Pressure words** like *verify*, *urgent*, *prize*, *free*.
 - **Really long links**, which push the real address off the edge of the screen.
 - **Lots of hyphens**, like `free-prize-winner`.
@@ -87,7 +87,7 @@ Open `phishing_checker.py`. Skim the whole thing first. A lot is already written
 
 | Blank | Hint |
 |---|---|
-| 1 | `"nimbusbank.com".split(".")` gives `["nimbusbank", "com"]`. Which position is the brand? |
+| 1 | `"nimbusbank.example".split(".")` gives `["nimbusbank", "com"]`. Which position is the brand? |
 | 2 | The link mentions the brand, but the real domain isn't the brand's actual site. Which variable holds the real site? |
 | 3 | Where does the link *really* go? There's a variable for that at the top of the function. |
 | 4 | Which list holds our known-good sites? Look at what `analyse` is given. |
@@ -145,7 +145,7 @@ Compare the report with your guesses from Step 1. Then look closely at these two
 That's probably just a library website. Your tool flagged something innocent. That's called a **false positive**.
 
 ```
-[SUSPICIOUS] https://pixe1post.com/login/verify-your-account
+[SUSPICIOUS] https://pixe1post.example/login/verify-your-account
       - Uses pressure words: login, verify, account
 ```
 

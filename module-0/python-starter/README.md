@@ -32,6 +32,8 @@ python --version
 
 You should see something like `Python 3.13.1`. If you get an error, try `py --version` on Windows or `python3 --version` on a Mac. Whichever one works is the word you'll use to run scripts from now on.
 
+On Windows you might see "Python was not found; run without arguments to install from the Microsoft Store". That's Windows pointing at a fake `python` shortcut. Ignore it and use `py` instead (or reinstall Python and tick the PATH box). Everywhere this kit says `python something.py`, type `py something.py`.
+
 **Get the kit.** [Download the kit as a ZIP file](https://github.com/ssipankajsingh/cyber-starter-kit/archive/refs/heads/main.zip) and unzip it somewhere you'll find again, like your Desktop. You'll get a folder called `cyber-starter-kit-main` with everything inside.
 
 **Move into this folder.** In the terminal, `cd` means "change directory", which is a fancy word for folder. Type `cd ` (with a space), drag the `python-starter` folder into the terminal window, and press Enter.

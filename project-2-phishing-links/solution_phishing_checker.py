@@ -40,8 +40,8 @@ def is_ip_address(host):
 
 def get_real_domain(host):
     """The real owner of a site is the LAST two pieces of the host.
-    www.nimbusbank.com              -> nimbusbank.com
-    nimbusbank.com.secure-login.xyz -> secure-login.xyz
+    www.nimbusbank.example              -> nimbusbank.example
+    nimbusbank.example.secure-login.xyz -> secure-login.xyz
     """
     if is_ip_address(host):
         return host

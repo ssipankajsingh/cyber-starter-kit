@@ -44,8 +44,8 @@ def is_ip_address(host):
 
 def get_real_domain(host):
     """The real owner of a site is the LAST two pieces of the host.
-    www.nimbusbank.com              -> nimbusbank.com
-    nimbusbank.com.secure-login.xyz -> secure-login.xyz
+    www.nimbusbank.example              -> nimbusbank.example
+    nimbusbank.example.secure-login.xyz -> secure-login.xyz
     """
     if is_ip_address(host):
         return host
@@ -78,7 +78,7 @@ def check_at_sign(url):
 def check_brand_trick(url, host, trusted_sites):
     real = get_real_domain(host)
     for site in trusted_sites:
-        # BLANK 1: "nimbusbank.com".split(".") gives ["nimbusbank", "com"].
+        # BLANK 1: "nimbusbank.example".split(".") gives ["nimbusbank", "com"].
         # Which position holds the brand name?
         brand = site.split(".")[____]
         # BLANK 2: the link mentions the brand, but its real domain isn't...?
