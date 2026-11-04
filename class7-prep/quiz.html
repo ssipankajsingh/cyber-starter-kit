@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 Prep Quiz</title>
+<style>
+  :root { --bg:#ffffff; --text:#1f2933; --muted:#52606d; --card:#f5f7fa; --line:#d9e2ec;
+          --accent:#157878; --good:#1b7f3b; --goodbg:#e6f4ea; --bad:#b42318; --badbg:#fdecea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141a1f; --text:#e4e9ee; --muted:#a3b0bd; --card:#1d252c; --line:#34414d;
+            --accent:#4fc3c3; --good:#6fd08c; --goodbg:#173323; --bad:#ff8a80; --badbg:#3a1d1b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:17px/1.55 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:20px 16px 60px; }
+  nav a { color:var(--accent); }
+  h1 { margin:.6em 0 .2em; font-size:1.7rem; }
+  .note { color:var(--muted); margin:0 0 1em; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:16px 0; }
+  select, button { font:inherit; padding:8px 12px; border-radius:8px; border:1px solid var(--line);
+                   background:var(--card); color:var(--text); }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600; cursor:pointer; }
+  button:focus-visible, select:focus-visible, input:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+  .q { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin:14px 0; }
+  .q legend { font-weight:600; padding:0 0 6px; float:left; width:100%; }
+  .q legend + label { clear:both; }
+  .tag { display:block; color:var(--muted); font-size:.85rem; font-weight:400; }
+  label { display:block; padding:6px 8px; margin:4px 0; border-radius:8px; cursor:pointer; }
+  label:hover { background:var(--line); }
+  .q.right { border-color:var(--good); }
+  .q.wrong { border-color:var(--bad); }
+  .result { margin-top:8px; padding:8px 10px; border-radius:8px; }
+  .right .result { background:var(--goodbg); color:var(--good); }
+  .wrong .result { background:var(--badbg); color:var(--bad); }
+  .result span { color:var(--text); }
+  #score { font-size:1.2rem; font-weight:700; padding:14px 16px; border-radius:12px; background:var(--card);
+           border:1px solid var(--line); margin:16px 0; }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="./">← Class 7 prep home</a> · <a id="backlink" href="mathematics/">Subject page</a></nav>
+  <h1 id="title">Quiz</h1>
+  <p class="note">Unofficial study aid, not made by the school. Pick your answers, then press <b>Check my answers</b>. Nothing is saved or sent anywhere.</p>
+
+  <div class="controls">
+    <label for="chapter" style="padding:0">Chapter:</label>
+    <select id="chapter"></select>
+    <button class="primary" id="start" type="button">Start quiz</button>
+  </div>
+
+  <p id="status" role="status"></p>
+  <form id="quiz" class="hidden" onsubmit="return false"></form>
+  <div id="score" class="hidden" role="status" aria-live="polite"></div>
+  <div class="controls hidden" id="actions">
+    <button class="primary" id="check" type="button">Check my answers</button>
+    <button id="again" type="button" class="hidden">Try again</button>
+  </div>
+</main>
+
+<script>
+(function () {
+  var params = new URLSearchParams(location.search);
+  var subject = (params.get("subject") || "mathematics").toLowerCase().replace(/[^a-z-]/g, "");
+  var data = null, current = [];
+  var $ = function (id) { return document.getElementById(id); };
+
+  $("backlink").href = subject + "/";
+
+  // Turn "7^3" into 7 followed by a superscript 3, using safe DOM nodes.
+  function addText(parent, text) {
+    text.split(/(\^\d+)/).forEach(function (part) {
+      if (/^\^\d+$/.test(part)) {
+        var sup = document.createElement("sup");
+        sup.textContent = part.slice(1);
+        parent.appendChild(sup);
+      } else if (part) {
+        parent.appendChild(document.createTextNode(part));
+      }
+    });
+  }
+
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
+  }
+
+  function load() {
+    fetch("data/" + subject + ".json")
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        data = d;
+        $("title").textContent = d.title + " quiz";
+        document.title = d.title + " quiz | Class 7 Prep";
+        var sel = $("chapter");
+        var all = document.createElement("option");
+        all.value = "all"; all.textContent = "All chapters"; sel.appendChild(all);
+        d.chapters.forEach(function (name, i) {
+          var o = document.createElement("option");
+          o.value = String(i); o.textContent = (i + 1) + ". " + name; sel.appendChild(o);
+        });
+        $("status").textContent = "";
+      })
+      .catch(function () {
+        $("status").textContent = "The quiz couldn't load. If you opened this file straight from your computer, open it from the website instead.";
+        $("start").disabled = true;
+      });
+  }
+
+  function start() {
+    var pick = $("chapter").value;
+    var qs = data.questions.filter(function (q) { return pick === "all" || String(q.ch) === pick; });
+    current = shuffle(qs.slice()).map(function (q) {
+      var order = shuffle(q.options.map(function (_, i) { return i; }));
+      return { q: q, order: order };
+    });
+    render();
+  }
+
+  function render() {
+    var form = $("quiz");
+    form.textContent = "";
+    current.forEach(function (item, n) {
+      var fs = document.createElement("fieldset");
+      fs.className = "q";
+      fs.style.margin = "14px 0";
+      var lg = document.createElement("legend");
+      addText(lg, (n + 1) + ". " + item.q.q);
+      var tag = document.createElement("span");
+      tag.className = "tag";
+      tag.textContent = data.chapters[item.q.ch];
+      lg.appendChild(tag);
+      fs.appendChild(lg);
+      item.order.forEach(function (optIndex) {
+        var lab = document.createElement("label");
+        var inp = document.createElement("input");
+        inp.type = "radio"; inp.name = "q" + n; inp.value = String(optIndex);
+        lab.appendChild(inp);
+        lab.appendChild(document.createTextNode(" "));
+        addText(lab, item.q.options[optIndex]);
+        fs.appendChild(lab);
+      });
+      item.el = fs;
+      form.appendChild(fs);
+    });
+    form.classList.remove("hidden");
+    $("actions").classList.remove("hidden");
+    $("check").classList.remove("hidden");
+    $("again").classList.add("hidden");
+    $("score").classList.add("hidden");
+    window.scrollTo(0, form.offsetTop - 20);
+  }
+
+  function check() {
+    var right = 0;
+    current.forEach(function (item, n) {
+      var chosen = document.querySelector('input[name="q' + n + '"]:checked');
+      var ok = chosen && Number(chosen.value) === item.q.answer;
+      if (ok) right++;
+      item.el.classList.add(ok ? "right" : "wrong");
+      item.el.querySelectorAll("input").forEach(function (i) { i.disabled = true; });
+      var res = document.createElement("div");
+      res.className = "result";
+      var head = document.createElement("b");
+      head.textContent = ok ? "Correct. " : (chosen ? "Not quite. " : "No answer picked. ");
+      res.appendChild(head);
+      var span = document.createElement("span");
+      if (!ok) { addText(span, "The answer is " + item.q.options[item.q.answer] + ". "); }
+      addText(span, item.q.why);
+      res.appendChild(span);
+      item.el.appendChild(res);
+    });
+    var total = current.length;
+    var pct = Math.round(right / total * 100);
+    var msg = pct >= 80 ? "Strong. Keep it fresh by taking it again in a few days."
+            : pct >= 50 ? "Getting there. Read the explanations, redo the chapter's practice questions, then try again tomorrow."
+            : "That's fine, it's what practice is for. Re-read the chapter notes and memory tips, then try again.";
+    var sc = $("score");
+    sc.textContent = "You got " + right + " out of " + total + " (" + pct + "%). " + msg;
+    sc.classList.remove("hidden");
+    $("check").classList.add("hidden");
+    $("again").classList.remove("hidden");
+    window.scrollTo(0, sc.offsetTop - 20);
+  }
+
+  $("start").addEventListener("click", start);
+  $("check").addEventListener("click", check);
+  $("again").addEventListener("click", start);
+  load();
+})();
+</script>
+</body>
+</html>
