@@ -28,13 +28,15 @@ Look at that table for a second. **English, Science and Maths are 75 of the 100 
 
 ## What's ready
 
-| Subject | Status |
-|---|---|
-| [Mathematics](mathematics/) | **Ready.** 5 chapters with notes, memory tips, practice questions with answers, and a quiz |
-| English | Coming soon |
-| Science | Coming soon |
-| Social Science | Coming soon |
-| Hindi | Coming soon |
+| Subject | Marks | Topics | Quiz |
+|---|---|---|---|
+| [English](english/) | 25 | 6 grammar topics | [30 questions](quiz.html?subject=english) |
+| [Mathematics](mathematics/) | 25 | 5 chapters | [25 questions](quiz.html?subject=mathematics) |
+| [Science](science/) | 25 | 5 topics | [25 questions](quiz.html?subject=science) |
+| [Social Science](social-science/) | 15 | 5 topics | [25 questions](quiz.html?subject=social-science) |
+| [Hindi (हिन्दी)](hindi/) | 10 | 5 topics, written in Hindi | [25 questions](quiz.html?subject=hindi) |
+
+Every topic page has notes, memory tips, common mistakes, practice questions with answers, and a one-glance summary. The English, Maths, Science and Social Science pages also give key words in Hindi. The quizzes mark themselves and explain each answer.
 
 ## How to use a chapter
 
