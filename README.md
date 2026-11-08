@@ -6,6 +6,8 @@ It's built for students in class 10 and up. You don't need to know any coding. Y
 
 **[Download the kit (ZIP)](https://github.com/ssipankajsingh/cyber-starter-kit/archive/refs/heads/main.zip)**, unzip it, and start with [Module 0](module-0/). Read the lessons here, and do the work in the files you downloaded.
 
+> **Preparing for the Class 7 admission exam at Gurukul Kurukshetra?** There's a separate free study guide for that: [Class 7 Admission Prep](https://ssipankajsingh.github.io/cyber-starter-kit/class7-prep/). It's an unofficial study aid, not made by the school.
+
 ## What's inside
 
 | Part | What you'll make | Time |
