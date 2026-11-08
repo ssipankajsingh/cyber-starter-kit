@@ -40,7 +40,7 @@ Look at that table for a second. **English, Science and Maths are 75 of the 100 
 
 Every topic page has notes, memory tips, common mistakes, practice questions with answers, and a one-glance summary. The English, Maths, Science and Social Science pages also give key words in Hindi.
 
-**Flashcards** for the facts and word lists: [Maths flashcards](flashcards.html?deck=mathematics) and [Hindi flashcards](flashcards.html?deck=hindi). More decks are coming. Your streak, stars and scores are saved on your own device only. The quizzes mark themselves and explain each answer.
+**Flashcards** for the facts and word lists: [English](flashcards.html?deck=english), [Maths](flashcards.html?deck=mathematics), [Science](flashcards.html?deck=science), [Social Science](flashcards.html?deck=social-science) and [Hindi](flashcards.html?deck=hindi). Your streak, stars and scores are saved on your own device only. The quizzes mark themselves and explain each answer.
 
 ## How to use a chapter
 

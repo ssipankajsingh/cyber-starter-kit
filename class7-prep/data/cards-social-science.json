@@ -1,0 +1,73 @@
+{
+  "title": "Social Science flashcards",
+  "back": "social-science/",
+  "groups": [
+    {"name": "Oceans and Continents", "cards": [
+      ["How much of Earth is covered by water?", "About 71% (land is about 29%)"],
+      ["The 7 continents, biggest to smallest", "Asia, Africa, North America, South America, Antarctica, Europe, Australia"],
+      ["Largest continent", "Asia"],
+      ["Smallest continent", "Australia"],
+      ["The 5 oceans, biggest to smallest", "Pacific, Atlantic, Indian, Southern, Arctic"],
+      ["Largest and deepest ocean", "Pacific"],
+      ["Smallest ocean", "Arctic"],
+      ["The ocean named after a country", "Indian Ocean (India)"],
+      ["Deepest part of the ocean", "Mariana Trench, about 11 km down, in the Pacific"],
+      ["Continents crossed by the equator", "Africa and South America"],
+      ["Highest mountain, and its continent", "Mount Everest, in Asia (about 8,849 m)"],
+      ["The equator divides Earth into", "The Northern and Southern Hemispheres"]
+    ]},
+    {"name": "Land Forms and Life", "cards": [
+      ["Example of fold mountains", "Himalayas (also the Alps)"],
+      ["Examples of volcanic mountains", "Mount Fuji, Mount Kilimanjaro"],
+      ["Plateau: what is it?", "High, flat-topped land, like a table"],
+      ["A plateau in south India", "The Deccan Plateau"],
+      ["The highest plateau in the world", "Tibetan Plateau, the \"roof of the world\""],
+      ["Why are plateaus important for industry?", "They are rich in minerals like coal and iron."],
+      ["Plains are formed by", "Rivers spreading soil (alluvium)"],
+      ["A fertile, crowded plain in north India", "The Indo-Gangetic Plain"],
+      ["Landform that supports the most people", "Plains"],
+      ["The desert in Rajasthan", "The Thar Desert"],
+      ["Island groups of India", "Andaman and Nicobar Islands, Lakshadweep"],
+      ["Why do mountains have few people?", "Steep, cold, and little flat land for farming"]
+    ]},
+    {"name": "Timeline and Sources of History", "cards": [
+      ["BCE stands for", "Before the Common Era (counts backwards)"],
+      ["CE stands for", "Common Era (counts forwards from year 1)"],
+      ["Which is earlier: 300 BCE or 100 BCE?", "300 BCE"],
+      ["Years from 500 BCE to 100 CE", "About 600 (different sides of year 1, so add)"],
+      ["A century, a decade, a millennium", "100, 10 and 1000 years"],
+      ["Who digs up and studies old objects?", "Archaeologists"],
+      ["What is an inscription?", "Writing carved on stone, metal or walls (Ashoka's edicts)"],
+      ["What is a manuscript?", "A handwritten book, such as on palm leaf or birch bark"],
+      ["Primary source", "From the time itself (a coin, an old letter)"],
+      ["Secondary source", "Written later about that time (a textbook)"],
+      ["Four kinds of source", "Archaeological, written, inscriptions, oral"]
+    ]},
+    {"name": "Grassroots Democracy", "cards": [
+      ["The three tiers of Panchayati Raj, village to district", "Gram Panchayat, Panchayat Samiti, Zila Parishad"],
+      ["Gram Sabha: who is in it?", "All the adult voters of the village"],
+      ["Head of a Gram Panchayat", "Sarpanch (also called Pradhan)"],
+      ["Voting age, and term of office", "18 years, and 5 years"],
+      ["Share of seats reserved for women", "At least one-third"],
+      ["Gram Panchayat money comes from", "Local taxes and grants from the State and Union governments"],
+      ["Name three jobs of a Gram Panchayat", "Any three: drinking water, roads, street lights, sanitation, schools"],
+      ["Who keeps village land records?", "The Patwari (Lekhpal)"],
+      ["Constitutional status came from", "The 73rd Amendment (1992, in force from 1993)"],
+      ["Gram Sabha vs Gram Panchayat", "Sabha: all voters meeting. Panchayat: the elected body that runs the village."]
+    ]},
+    {"name": "Economic Activities Around Us", "cards": [
+      ["Primary activity", "Taking things from nature: farming, fishing, mining"],
+      ["Secondary activity", "Making goods from raw materials: factories, building"],
+      ["Tertiary activity", "Services: teaching, medicine, shops, transport, banking"],
+      ["A farmer's work is", "Primary"],
+      ["A tailor's work is", "Secondary"],
+      ["A teacher's work is", "Tertiary"],
+      ["Goods or service: a loaf of bread", "Goods (you can touch it)"],
+      ["Goods or service: a haircut", "Service (work done for you)"],
+      ["Need or want: food and water", "Need"],
+      ["Barter means", "Swapping goods directly, without money"],
+      ["Most villagers do which kind of work?", "Primary, mostly farming"],
+      ["Producer and consumer", "Producer makes goods or gives a service. Consumer uses them."]
+    ]}
+  ]
+}

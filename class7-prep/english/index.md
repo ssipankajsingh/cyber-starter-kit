@@ -21,6 +21,8 @@ The English paper in this syllabus is all grammar, and it's 25 marks. Grammar is
 
 **[Take the English quiz](../quiz.html?subject=english)** has 30 questions, 5 per topic. It marks itself and explains every answer.
 
+**[Practise with English flashcards](../flashcards.html?deck=english)**: the facts and word lists, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
+
 ## How to get better at grammar fast
 
 - **Read aloud.** Your ear often knows the right answer before your brain does. "She go to school" sounds wrong. Trust that feeling, then find out why.
