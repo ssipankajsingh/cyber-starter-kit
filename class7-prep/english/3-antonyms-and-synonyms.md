@@ -99,36 +99,27 @@ It doesn't work for every word. The opposite of *strong* isn't *unstrong*. It's 
 
 ## Practice (do these on paper)
 
-Find a synonym:
-1. big  2. quick  3. brave  4. begin  5. tired
+<div class="practice">
+<p class="pgroup">Find a synonym:</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> big</div><div class="pqa">large (or huge)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> quick</div><div class="pqa">fast (or rapid, swift)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> brave</div><div class="pqa">bold (or courageous)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> begin</div><div class="pqa">start (or commence)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> tired</div><div class="pqa">weary (or exhausted)</div></div>
+<p class="pgroup">Find an antonym:</p>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> ancient</div><div class="pqa">modern</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> victory</div><div class="pqa">defeat</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> generous</div><div class="pqa">selfish (or stingy)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> accept</div><div class="pqa">reject</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> increase</div><div class="pqa">decrease</div></div>
+<p class="pgroup">Add a prefix to make the opposite:</p>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> possible</div><div class="pqa">impossible</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> honest</div><div class="pqa">dishonest</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> regular</div><div class="pqa">irregular</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> visible</div><div class="pqa">invisible</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">15.</span> The opposite of <em>light</em> in "a light bag" is ___. The opposite of <em>light</em> in "a light room" is ___.</div><div class="pqa">heavy; dark</div></div>
+</div>
 
-Find an antonym:
-6. ancient  7. victory  8. generous  9. accept  10. increase
-
-Add a prefix to make the opposite:
-11. possible  12. honest  13. regular  14. visible
-
-15. The opposite of *light* in "a light bag" is ___. The opposite of *light* in "a light room" is ___.
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. large (or huge)
-2. fast (or rapid, swift)
-3. bold (or courageous)
-4. start (or commence)
-5. weary (or exhausted)
-6. modern
-7. defeat
-8. selfish (or stingy)
-9. reject
-10. decrease
-11. impossible
-12. dishonest
-13. irregular
-14. invisible
-15. heavy; dark
-</details>
 
 ## Quick card
 
@@ -137,3 +128,5 @@ Add a prefix to make the opposite:
 - Learn words in pairs. A few a day beats a lot in one night.
 
 Back: [Nouns and Pronouns](2-nouns-and-pronouns.md) · Next: [Adjectives](4-adjectives.md)
+
+<script src="../assets/prep.js" defer></script>

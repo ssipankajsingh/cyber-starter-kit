@@ -61,11 +61,12 @@
   </div>
 </main>
 
+<script src="assets/prep.js"></script>
 <script>
 (function () {
   var params = new URLSearchParams(location.search);
   var subject = (params.get("subject") || "mathematics").toLowerCase().replace(/[^a-z-]/g, "");
-  var data = null, current = [];
+  var data = null, current = [], lastPick = "all";
   var $ = function (id) { return document.getElementById(id); };
 
   $("backlink").href = subject + "/";
@@ -115,7 +116,8 @@
 
   function start() {
     var pick = $("chapter").value;
-    var qs = data.questions.filter(function (q) { return pick === "all" || String(q.ch) === pick; });
+    lastPick = pick;
+    var qs =data.questions.filter(function (q) { return pick === "all" || String(q.ch) === pick; });
     current = shuffle(qs.slice()).map(function (q) {
       var order = shuffle(q.options.map(function (_, i) { return i; }));
       return { q: q, order: order };
@@ -181,8 +183,15 @@
     var msg = pct >= 80 ? "Strong. Keep it fresh by taking it again in a few days."
             : pct >= 50 ? "Getting there. Read the explanations, redo the chapter's practice questions, then try again tomorrow."
             : "That's fine, it's what practice is for. Re-read the chapter notes and memory tips, then try again.";
+    var best = "";
+    if (window.C7) {
+      var saved = C7.saveQuiz(subject, lastPick, right, total);
+      best = saved.prev
+        ? " Your best score on this set: " + saved.best.best + " out of " + saved.best.total + "."
+        : " Score saved on this device. Come back and beat it!";
+    }
     var sc = $("score");
-    sc.textContent = "You got " + right + " out of " + total + " (" + pct + "%). " + msg;
+    sc.textContent = "You got " + right + " out of " + total + " (" + pct + "%). " + msg + best;
     sc.classList.remove("hidden");
     $("check").classList.add("hidden");
     $("again").classList.remove("hidden");

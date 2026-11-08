@@ -79,35 +79,21 @@ Examples: **She** called **me**. This is **my** book. This book is **mine**. He 
 
 ## Practice (do these on paper)
 
-1. Name the kind of noun: (a) Delhi (b) honesty (c) herd (d) gold (e) teacher.
-2. Write the plural: (a) baby (b) box (c) leaf (d) child (e) boy (f) tooth.
-3. Fill in the collective noun: a ___ of bees; a ___ of sheep.
-4. Fill in with a pronoun: Riya lost ___ bag. (his / her)
-5. This pen belongs to me. It is ___. (my / mine)
-6. Priya is clever, and everybody likes ___. (she / her)
-7. The boys enjoyed ___ at the picnic. (themselves / theirselves)
-8. The girl ___ won the race is my cousin. (who / which)
-9. ___ book is this? It is not mine. (Who / Whose)
-10. Rewrite correctly: *Me and Ravi went to the market.*
-11. The cat licked ___ paws. (it's / its)
-12. Replace the nouns with pronouns: *Ravi gave the book to Meena, and Meena thanked Ravi.*
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Name the kind of noun: (a) Delhi (b) honesty (c) herd (d) gold (e) teacher.</div><div class="pqa">(a) proper (b) abstract (c) collective (d) material (e) common</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Write the plural: (a) baby (b) box (c) leaf (d) child (e) boy (f) tooth.</div><div class="pqa">(a) babies (b) boxes (c) leaves (d) children (e) boys (f) teeth</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Fill in the collective noun: a ___ of bees; a ___ of sheep.</div><div class="pqa">swarm; flock</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Fill in with a pronoun: Riya lost ___ bag. (his / her)</div><div class="pqa">her</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> This pen belongs to me. It is ___. (my / mine)</div><div class="pqa">mine</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Priya is clever, and everybody likes ___. (she / her)</div><div class="pqa">her (the object of "likes")</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> The boys enjoyed ___ at the picnic. (themselves / theirselves)</div><div class="pqa">themselves</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> The girl ___ won the race is my cousin. (who / which)</div><div class="pqa">who (it's a person)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> ___ book is this? It is not mine. (Who / Whose)</div><div class="pqa">Whose (it shows belonging)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Rewrite correctly: <em>Me and Ravi went to the market.</em></div><div class="pqa">Ravi and I went to the market.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> The cat licked ___ paws. (it's / its)</div><div class="pqa">its</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> Replace the nouns with pronouns: <em>Ravi gave the book to Meena, and Meena thanked Ravi.</em></div><div class="pqa">Ravi gave the book to Meena, and she thanked him.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. (a) proper (b) abstract (c) collective (d) material (e) common
-2. (a) babies (b) boxes (c) leaves (d) children (e) boys (f) teeth
-3. swarm; flock
-4. her
-5. mine
-6. her (the object of "likes")
-7. themselves
-8. who (it's a person)
-9. Whose (it shows belonging)
-10. Ravi and I went to the market.
-11. its
-12. Ravi gave the book to Meena, and she thanked him.
-</details>
 
 ## Quick card
 
@@ -118,3 +104,5 @@ Examples: **She** called **me**. This is **my** book. This book is **mine**. He 
 - *its* = belonging, *it's* = it is
 
 Back: [Articles and Determiners](1-articles-and-determiners.md) · Next: [Antonyms and Synonyms](3-antonyms-and-synonyms.md)
+
+<script src="../assets/prep.js" defer></script>

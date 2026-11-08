@@ -99,37 +99,22 @@ Heat always flows from the **hotter** object to the **colder** one, until they'r
 
 ## Practice (do these on paper)
 
-1. What is the range of a laboratory thermometer?
-2. What is the range of a clinical thermometer?
-3. What is the normal temperature of the human body in °C?
-4. Why does a clinical thermometer have a kink?
-5. Why shouldn't you use a clinical thermometer to measure the temperature of hot tea?
-6. Convert 40 °C to °F.
-7. Convert 68 °F to °C.
-8. Convert 0 °C to kelvin.
-9. In which direction does heat flow?
-10. Name the three ways in which heat travels.
-11. How does heat from the Sun reach the Earth?
-12. Why do we wear woollen clothes in winter?
-13. Which is the odd one out: copper, iron, wood, aluminium? Why?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What is the range of a laboratory thermometer?</div><div class="pqa">−10 °C to 110 °C</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> What is the range of a clinical thermometer?</div><div class="pqa">35 °C to 42 °C</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> What is the normal temperature of the human body in °C?</div><div class="pqa">37 °C</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Why does a clinical thermometer have a kink?</div><div class="pqa">The kink stops the mercury from falling back on its own, so the reading stays put after you take it out.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Why shouldn't you use a clinical thermometer to measure the temperature of hot tea?</div><div class="pqa">Hot tea is much hotter than 42 °C. The thermometer would break.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Convert 40 °C to °F.</div><div class="pqa">40 × 9/5 + 32 = 72 + 32 = 104 °F</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Convert 68 °F to °C.</div><div class="pqa">(68 − 32) × 5/9 = 36 × 5/9 = 20 °C</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Convert 0 °C to kelvin.</div><div class="pqa">0 + 273 = 273 K</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> In which direction does heat flow?</div><div class="pqa">From the hotter object to the colder one.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Name the three ways in which heat travels.</div><div class="pqa">Conduction, convection and radiation.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> How does heat from the Sun reach the Earth?</div><div class="pqa">By radiation. Radiation doesn't need any material, and space is empty.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> Why do we wear woollen clothes in winter?</div><div class="pqa">Wool traps air, and air is a poor conductor, so body heat can't escape easily.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> Which is the odd one out: copper, iron, wood, aluminium? Why?</div><div class="pqa">Wood. It's a poor conductor (an insulator), and the other three are metals, which are good conductors.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. −10 °C to 110 °C
-2. 35 °C to 42 °C
-3. 37 °C
-4. The kink stops the mercury from falling back on its own, so the reading stays put after you take it out.
-5. Hot tea is much hotter than 42 °C. The thermometer would break.
-6. 40 × 9/5 + 32 = 72 + 32 = 104 °F
-7. (68 − 32) × 5/9 = 36 × 5/9 = 20 °C
-8. 0 + 273 = 273 K
-9. From the hotter object to the colder one.
-10. Conduction, convection and radiation.
-11. By radiation. Radiation doesn't need any material, and space is empty.
-12. Wool traps air, and air is a poor conductor, so body heat can't escape easily.
-13. Wood. It's a poor conductor (an insulator), and the other three are metals, which are good conductors.
-</details>
 
 ## Quick card
 
@@ -139,3 +124,5 @@ Heat always flows from the **hotter** object to the **colder** one, until they'r
 - Conduction (solids), convection (liquids, gases), radiation (no material needed).
 
 Next: [Components of Food](2-components-of-food.md)
+
+<script src="../assets/prep.js" defer></script>

@@ -1,0 +1,54 @@
+{
+  "title": "Mathematics flashcards",
+  "back": "mathematics/",
+  "groups": [
+    {"name": "Exponents and Powers", "cards": [
+      ["a^{m} × a^{n} = ?", "a^{m+n}. Same base, multiply: add the powers."],
+      ["a^{m} ÷ a^{n} = ?", "a^{m−n}. Same base, divide: subtract the powers."],
+      ["(a^{m})^{n} = ?", "a^{m×n}. Power of a power: multiply the powers."],
+      ["a^{m} × b^{m} = ?", "(a × b)^{m}"],
+      ["a^{0} = ?", "1 (when a is not 0)"],
+      ["2^{5} = ?", "32"],
+      ["3^{4} = ?", "81"],
+      ["Write 4,50,000 in standard form.", "4.5 × 10^{5}"]
+    ]},
+    {"name": "Area and Perimeter", "cards": [
+      ["Perimeter of a rectangle", "2 × (length + breadth)"],
+      ["Area of a rectangle", "length × breadth"],
+      ["Perimeter of a square", "4 × side"],
+      ["Area of a square", "side × side"],
+      ["Area of a triangle", "½ × base × height"],
+      ["Area of a parallelogram", "base × height"],
+      ["Circumference of a circle", "2 × π × r"],
+      ["Area of a circle", "π × r × r"],
+      ["1 m² = ? cm²", "10,000 cm²"]
+    ]},
+    {"name": "Algebraic Expressions", "cards": [
+      ["How many terms are in 5x² − 3x + 7?", "3 terms: 5x², −3x and 7"],
+      ["What is the coefficient of x in −3x?", "−3 (keep the sign)"],
+      ["What are like terms?", "Terms with the same letters and the same powers, like 3xy and −2yx"],
+      ["Monomial, binomial, trinomial: how many terms?", "1 term, 2 terms, 3 terms"],
+      ["How do you subtract a bracket?", "Flip every sign inside it, then add"],
+      ["5 less than x, as an expression", "x − 5"]
+    ]},
+    {"name": "Comparing Quantities", "cards": [
+      ["Profit = ?", "Selling price − Cost price"],
+      ["Loss = ?", "Cost price − Selling price"],
+      ["Profit % = ?", "Profit ÷ Cost price × 100"],
+      ["Simple interest = ?", "P × R × T ÷ 100"],
+      ["Amount = ?", "Principal + Interest"],
+      ["What is 25% of 80?", "20"],
+      ["Simplify the ratio 12 : 18", "2 : 3"]
+    ]},
+    {"name": "Lines and Angles", "cards": [
+      ["Complementary angles add up to", "90°"],
+      ["Supplementary angles add up to", "180°"],
+      ["A linear pair adds up to", "180°"],
+      ["Vertically opposite angles are", "Equal"],
+      ["Corresponding angles (parallel lines) are", "Equal"],
+      ["Co-interior angles (parallel lines) add up to", "180°"],
+      ["The angles of a triangle add up to", "180°"],
+      ["The complement of 65°", "25°"]
+    ]}
+  ]
+}

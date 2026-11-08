@@ -80,31 +80,19 @@ In villages, local government is called the **Panchayati Raj** system. (*Panch* 
 
 ## Practice (do these on paper)
 
-1. What does "grassroots democracy" mean?
-2. Name the three tiers of Panchayati Raj, from the village level to the district level.
-3. Who are members of the Gram Sabha?
-4. Who is the head of a Gram Panchayat?
-5. What is the minimum age to vote in a panchayat election? How long is the term?
-6. What share of seats is reserved for women?
-7. Name three works done by a Gram Panchayat.
-8. Name two sources of money for a Gram Panchayat.
-9. Who keeps records of land in a village?
-10. What is the difference between a Gram Sabha and a Gram Panchayat?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What does "grassroots democracy" mean?</div><div class="pqa">Giving ordinary people in villages and towns a say in running their own area, by electing local government.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Name the three tiers of Panchayati Raj, from the village level to the district level.</div><div class="pqa">Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Who are members of the Gram Sabha?</div><div class="pqa">All the adult voters of the village.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Who is the head of a Gram Panchayat?</div><div class="pqa">The Sarpanch (or Pradhan).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> What is the minimum age to vote in a panchayat election? How long is the term?</div><div class="pqa">18 years. The term is 5 years.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> What share of seats is reserved for women?</div><div class="pqa">At least one-third.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Name three works done by a Gram Panchayat.</div><div class="pqa">Any three: drinking water, village roads, street lights, sanitation, schools, health centres, records.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Name two sources of money for a Gram Panchayat.</div><div class="pqa">Taxes it collects (house tax, fees), and grants from the State and Union governments.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Who keeps records of land in a village?</div><div class="pqa">The Patwari (Lekhpal).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> What is the difference between a Gram Sabha and a Gram Panchayat?</div><div class="pqa">The Gram Sabha is the meeting of all the adult voters. The Gram Panchayat is the smaller, elected body that runs the village.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Giving ordinary people in villages and towns a say in running their own area, by electing local government.
-2. Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district).
-3. All the adult voters of the village.
-4. The Sarpanch (or Pradhan).
-5. 18 years. The term is 5 years.
-6. At least one-third.
-7. Any three: drinking water, village roads, street lights, sanitation, schools, health centres, records.
-8. Taxes it collects (house tax, fees), and grants from the State and Union governments.
-9. The Patwari (Lekhpal).
-10. The Gram Sabha is the meeting of all the adult voters. The Gram Panchayat is the smaller, elected body that runs the village.
-</details>
 
 ## Quick card
 
@@ -114,3 +102,5 @@ In villages, local government is called the **Panchayati Raj** system. (*Panch* 
 - Money: local taxes plus grants. Constitutional status: 73rd Amendment.
 
 Back: [Timeline and Sources of History](3-timeline-and-sources-of-history.md) · Next: [Economic Activities Around Us](5-economic-activities-around-us.md)
+
+<script src="../assets/prep.js" defer></script>

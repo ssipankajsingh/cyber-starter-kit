@@ -81,34 +81,24 @@ description: कक्षा 7 प्रवेश तैयारी, 2 अं�
 
 ## अभ्यास (कॉपी में कीजिए)
 
-अशुद्ध शब्द को शुद्ध कीजिए:
-1. परिक्षा  2. बिमार  3. श्रीमति  4. विधालय  5. राष्ट्रिय  6. पुरूष  7. उज्जवल  8. आर्शीवाद
+<div class="practice">
+<p class="pgroup">अशुद्ध शब्द को शुद्ध कीजिए:</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> परिक्षा</div><div class="pqa">परीक्षा</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> बिमार</div><div class="pqa">बीमार</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> श्रीमति</div><div class="pqa">श्रीमती</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> विधालय</div><div class="pqa">विद्यालय</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> राष्ट्रिय</div><div class="pqa">राष्ट्रीय</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> पुरूष</div><div class="pqa">पुरुष</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> उज्जवल</div><div class="pqa">उज्ज्वल</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> आर्शीवाद</div><div class="pqa">आशीर्वाद</div></div>
+<p class="pgroup">अशुद्ध वाक्य को शुद्ध कीजिए:</p>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> मैंने किताब पढ़ा।</div><div class="pqa">मैंने किताब पढ़ी। (किताब स्त्रीलिंग है)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> लड़कियाँ गाना गा रहा है।</div><div class="pqa">लड़कियाँ गाना गा रही हैं।</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> भारत एक महान देश हैं।</div><div class="pqa">भारत एक महान देश है।</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> हम स्कूल जाता हैं।</div><div class="pqa">हम स्कूल जाते हैं।</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> "ग्रह" और "गृह" में क्या अंतर है?</div><div class="pqa">ग्रह = आकाश का पिंड (जैसे मंगल)। गृह = घर।</div></div>
+</div>
 
-अशुद्ध वाक्य को शुद्ध कीजिए:
-9. मैंने किताब पढ़ा।
-10. लड़कियाँ गाना गा रहा है।
-11. भारत एक महान देश हैं।
-12. हम स्कूल जाता हैं।
-
-13. "ग्रह" और "गृह" में क्या अंतर है?
-
-<details>
-<summary>उत्तर देखिए (पहले खुद कोशिश कीजिए!)</summary>
-
-1. परीक्षा
-2. बीमार
-3. श्रीमती
-4. विद्यालय
-5. राष्ट्रीय
-6. पुरुष
-7. उज्ज्वल
-8. आशीर्वाद
-9. मैंने किताब पढ़ी। (किताब स्त्रीलिंग है)
-10. लड़कियाँ गाना गा रही हैं।
-11. भारत एक महान देश है।
-12. हम स्कूल जाते हैं।
-13. ग्रह = आकाश का पिंड (जैसे मंगल)। गृह = घर।
-</details>
 
 ## संक्षेप
 
@@ -117,3 +107,5 @@ description: कक्षा 7 प्रवेश तैयारी, 2 अं�
 - बोलकर पढ़ने पर कई गलतियाँ अपने-आप पकड़ में आ जाती हैं
 
 पिछला: [विलोम शब्द](3-vilom-shabd.md) · अगला: [वाक्यांशों के लिए एक शब्द](5-vakyansh-ke-liye-ek-shabd.md)
+
+<script src="../assets/prep.js" defer></script>

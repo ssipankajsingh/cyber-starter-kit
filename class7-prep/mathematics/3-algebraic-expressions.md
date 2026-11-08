@@ -107,37 +107,22 @@ x² terms: 7x² + 2x² = 9x². x terms: 3x − 5x = −2x. Answer: **9x² − 2x
 
 ## Practice (do these on paper)
 
-1. List the terms of 5x² − 3x + 7, and give the coefficient of x.
-2. Which pair are like terms? 3x and 2y, −2yx and 5xy, 4x² and 4x.
-3. Add 4p and 9p.
-4. Add (3a + 2b) and (a + 5b).
-5. Add (7x² + 3x) and (2x² − 5x).
-6. Subtract 4p from 9p.
-7. Subtract (3m − 2n) from (5m + n).
-8. Subtract (3a − b) from (5a + 2b).
-9. Find the value of 3x − 2 when x = 4.
-10. Find the value of x² + 2x when x = 3.
-11. Find the value of 2a + 3b when a = 2 and b = 5.
-12. Write as an expression: "7 more than three times n".
-13. Sunil has x pencils. Meera has 3 more than twice Sunil's. How many does Meera have?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> List the terms of 5x² − 3x + 7, and give the coefficient of x.</div><div class="pqa">Terms: 5x², −3x, 7. Coefficient of x: −3.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Which pair are like terms? 3x and 2y, −2yx and 5xy, 4x² and 4x.</div><div class="pqa">−2yx and 5xy.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Add 4p and 9p.</div><div class="pqa">13p</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Add (3a + 2b) and (a + 5b).</div><div class="pqa">4a + 7b</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Add (7x² + 3x) and (2x² − 5x).</div><div class="pqa">9x² − 2x</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Subtract 4p from 9p.</div><div class="pqa">5p</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Subtract (3m − 2n) from (5m + n).</div><div class="pqa">2m + 3n</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Subtract (3a − b) from (5a + 2b).</div><div class="pqa">(5a + 2b) − (3a − b) = 5a + 2b − 3a + b = 2a + 3b</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Find the value of 3x − 2 when x = 4.</div><div class="pqa">10</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Find the value of x² + 2x when x = 3.</div><div class="pqa">15</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Find the value of 2a + 3b when a = 2 and b = 5.</div><div class="pqa">19</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> Write as an expression: "7 more than three times n".</div><div class="pqa">3n + 7</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> Sunil has x pencils. Meera has 3 more than twice Sunil's. How many does Meera have?</div><div class="pqa">2x + 3</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Terms: 5x², −3x, 7. Coefficient of x: −3.
-2. −2yx and 5xy.
-3. 13p
-4. 4a + 7b
-5. 9x² − 2x
-6. 5p
-7. 2m + 3n
-8. (5a + 2b) − (3a − b) = 5a + 2b − 3a + b = 2a + 3b
-9. 10
-10. 15
-11. 19
-12. 3n + 7
-13. 2x + 3
-</details>
 
 ## Formula card
 
@@ -147,3 +132,5 @@ x² terms: 7x² + 2x² = 9x². x terms: 3x − 5x = −2x. Answer: **9x² − 2x
 - To find a value: swap in the number and work it out step by step.
 
 Back: [Area and Perimeter](2-area-and-perimeter.md) · Next: [Comparing Quantities](4-comparing-quantities.md)
+
+<script src="../assets/prep.js" defer></script>

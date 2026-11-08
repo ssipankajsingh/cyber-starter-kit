@@ -28,6 +28,8 @@ Look at that table for a second. **English, Science and Maths are 75 of the 100 
 
 ## What's ready
 
+<div id="c7-progress"></div>
+
 | Subject | Marks | Topics | Quiz |
 |---|---|---|---|
 | [English](english/) | 25 | 6 grammar topics | [30 questions](quiz.html?subject=english) |
@@ -36,7 +38,9 @@ Look at that table for a second. **English, Science and Maths are 75 of the 100 
 | [Social Science](social-science/) | 15 | 5 topics | [25 questions](quiz.html?subject=social-science) |
 | [Hindi (हिन्दी)](hindi/) | 10 | 5 topics, written in Hindi | [25 questions](quiz.html?subject=hindi) |
 
-Every topic page has notes, memory tips, common mistakes, practice questions with answers, and a one-glance summary. The English, Maths, Science and Social Science pages also give key words in Hindi. The quizzes mark themselves and explain each answer.
+Every topic page has notes, memory tips, common mistakes, practice questions with answers, and a one-glance summary. The English, Maths, Science and Social Science pages also give key words in Hindi.
+
+**Flashcards** for the facts and word lists: [Maths flashcards](flashcards.html?deck=mathematics) and [Hindi flashcards](flashcards.html?deck=hindi). More decks are coming. Your streak, stars and scores are saved on your own device only. The quizzes mark themselves and explain each answer.
 
 ## How to use a chapter
 
@@ -77,3 +81,5 @@ The night before:
 - **Teach it to someone.** Explain a chapter to a friend or a parent. Where you get stuck is where to study next.
 - **Make a formula card.** One small card per subject, kept in your pocket. Read it while you wait for anything.
 - **Silly rhymes and pictures work.** The sillier it is, the better you'll remember it.
+
+<script src="assets/prep.js" defer></script>

@@ -75,31 +75,19 @@ Where do historians get their clues?
 
 ## Practice (do these on paper)
 
-1. What does history study?
-2. What do BCE and CE stand for?
-3. Which is earlier, 300 BCE or 100 BCE?
-4. How many years from 1947 CE to 2025 CE?
-5. How many years from 500 BCE to 100 CE?
-6. How many years are in a century? In a decade? In a millennium?
-7. Name two kinds of sources used by historians.
-8. Who digs up and studies old objects?
-9. What is an inscription? Give one example.
-10. What is the difference between a primary and a secondary source?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What does history study?</div><div class="pqa">The past: what happened, when and why.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> What do BCE and CE stand for?</div><div class="pqa">BCE = Before the Common Era. CE = Common Era.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Which is earlier, 300 BCE or 100 BCE?</div><div class="pqa">300 BCE (BCE numbers count backwards, so a bigger number means earlier).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> How many years from 1947 CE to 2025 CE?</div><div class="pqa">2025 − 1947 = 78 years.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> How many years from 500 BCE to 100 CE?</div><div class="pqa">500 + 100 = 600 years (about).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> How many years are in a century? In a decade? In a millennium?</div><div class="pqa">100, 10 and 1000.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Name two kinds of sources used by historians.</div><div class="pqa">Any two: archaeological (objects), written (books and manuscripts), inscriptions, oral.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Who digs up and studies old objects?</div><div class="pqa">Archaeologists.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> What is an inscription? Give one example.</div><div class="pqa">Writing carved on stone, metal or walls. For example, Ashoka's edicts.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> What is the difference between a primary and a secondary source?</div><div class="pqa">A primary source comes from the time being studied (a coin, an old letter). A secondary source is written later about that time (a textbook).</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. The past: what happened, when and why.
-2. BCE = Before the Common Era. CE = Common Era.
-3. 300 BCE (BCE numbers count backwards, so a bigger number means earlier).
-4. 2025 − 1947 = 78 years.
-5. 500 + 100 = 600 years (about).
-6. 100, 10 and 1000.
-7. Any two: archaeological (objects), written (books and manuscripts), inscriptions, oral.
-8. Archaeologists.
-9. Writing carved on stone, metal or walls. For example, Ashoka's edicts.
-10. A primary source comes from the time being studied (a coin, an old letter). A secondary source is written later about that time (a textbook).
-</details>
 
 ## Quick card
 
@@ -110,3 +98,5 @@ Where do historians get their clues?
 - Primary = from the time. Secondary = written later.
 
 Back: [Land Forms and Life](2-land-forms-and-life.md) · Next: [Grassroots Democracy](4-grassroots-democracy.md)
+
+<script src="../assets/prep.js" defer></script>

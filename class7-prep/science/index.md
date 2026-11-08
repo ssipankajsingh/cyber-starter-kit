@@ -28,3 +28,5 @@ Science is 25 marks, 5 for each topic. Science questions usually ask one of thre
 - **Use real life.** Sieving flour, drinking water, a fan spinning. Every topic here is something you can see at home today.
 - **Practise the sums.** Speed and temperature conversion are easy marks, but only if you've practised.
 - **Keep a one-page summary** per topic, and read it on the day before the exam.
+
+<script src="../assets/prep.js" defer></script>

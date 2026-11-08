@@ -26,6 +26,8 @@ The syllabus calls the last one "Linear and Angles". I've taken that to mean lin
 
 Do it the day *after* you study a chapter, not straight away.
 
+**[Practise with Maths flashcards](../flashcards.html?deck=mathematics)**: every formula and key fact, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
+
 ## How to score full marks in Maths
 
 - **Learn the formulas on a card.** Maths marks are lost to forgotten formulas more than to hard thinking. Each chapter page ends with a "formula card" you can copy.
@@ -33,3 +35,5 @@ Do it the day *after* you study a chapter, not straight away.
 - **Keep a "mistakes page".** Write down every question you got wrong and why. Read it before the exam. It's the most useful page you'll have.
 - **Check your answer makes sense.** If a shop sells a pen for ₹5,00,000 or an angle comes out at 400°, something's off.
 - **Be tidy.** Line up your working, write one step per line, and put the units on the answer.
+
+<script src="../assets/prep.js" defer></script>

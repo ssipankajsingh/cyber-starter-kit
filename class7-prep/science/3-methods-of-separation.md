@@ -80,38 +80,22 @@ Ask two questions:
 
 ## Practice (do these on paper)
 
-Which method would you use for each?
+<div class="practice">
+<p class="pnote">Which method would you use for each?</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Taking stones out of rice.</div><div class="pqa">Handpicking</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Separating husk from wheat grains.</div><div class="pqa">Winnowing</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Separating iron filings from sand.</div><div class="pqa">Magnetic separation (a magnet)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Getting salt from sea water.</div><div class="pqa">Evaporation</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Separating flour from large lumps or bran.</div><div class="pqa">Sieving</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Getting tea leaves out of tea.</div><div class="pqa">Filtration (a tea strainer)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Getting grain from harvested stalks.</div><div class="pqa">Threshing</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Getting pure drinking water from salt water.</div><div class="pqa">Evaporation followed by condensation (distillation)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> List the three steps, in order, for cleaning muddy water.</div><div class="pqa">Sedimentation, then decantation, then filtration</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Why can't filtration separate salt from salt water?</div><div class="pqa">The salt is dissolved, so it passes through the filter paper along with the water.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Why is the wind needed in winnowing?</div><div class="pqa">The wind blows away the lighter husk, and the heavier grain falls straight down.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> What does "saturated solution" mean?</div><div class="pqa">A solution in which no more of the substance can dissolve at that temperature.</div></div>
+</div>
 
-1. Taking stones out of rice.
-2. Separating husk from wheat grains.
-3. Separating iron filings from sand.
-4. Getting salt from sea water.
-5. Separating flour from large lumps or bran.
-6. Getting tea leaves out of tea.
-7. Getting grain from harvested stalks.
-8. Getting pure drinking water from salt water.
-
-9. List the three steps, in order, for cleaning muddy water.
-10. Why can't filtration separate salt from salt water?
-11. Why is the wind needed in winnowing?
-12. What does "saturated solution" mean?
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Handpicking
-2. Winnowing
-3. Magnetic separation (a magnet)
-4. Evaporation
-5. Sieving
-6. Filtration (a tea strainer)
-7. Threshing
-8. Evaporation followed by condensation (distillation)
-9. Sedimentation, then decantation, then filtration
-10. The salt is dissolved, so it passes through the filter paper along with the water.
-11. The wind blows away the lighter husk, and the heavier grain falls straight down.
-12. A solution in which no more of the substance can dissolve at that temperature.
-</details>
 
 ## Quick card
 
@@ -122,3 +106,5 @@ Which method would you use for each?
 - Dissolved? Use evaporation. Not dissolved? Use filtration.
 
 Back: [Components of Food](2-components-of-food.md) · Next: [Motion and Measurement of Distance](4-motion-and-measurement-of-distance.md)
+
+<script src="../assets/prep.js" defer></script>

@@ -69,35 +69,21 @@ Adjectives change when you compare things. There are three steps:
 
 ## Practice (do these on paper)
 
-1. Name the adjective: *She wore a beautiful red dress.*
-2. Name the kind of adjective in **three** apples.
-3. Give the comparative: (a) tall (b) big (c) happy (d) beautiful
-4. Give the superlative: (a) large (b) good (c) bad (d) much
-5. Fill in: Ravi is ___ than Amit. (tall)
-6. Fill in: Mount Everest is ___ mountain in the world. (high)
-7. Fill in: This bag is ___ than that one. (heavy)
-8. Fill in: She is the ___ girl in the class. (clever)
-9. Fix the mistake: *My sister is more taller than me.*
-10. Fix the mistake: *This is the most good book I've read.*
-11. Fill in: Meena is as ___ as Riya. (smart)
-12. Pick the right word: He ran ___ than all the others. (far / farther / farthest)
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Name the adjective: <em>She wore a beautiful red dress.</em></div><div class="pqa">beautiful, red</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Name the kind of adjective in <strong>three</strong> apples.</div><div class="pqa">number (it tells how many)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Give the comparative: (a) tall (b) big (c) happy (d) beautiful</div><div class="pqa">(a) taller (b) bigger (c) happier (d) more beautiful</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Give the superlative: (a) large (b) good (c) bad (d) much</div><div class="pqa">(a) largest (b) best (c) worst (d) most</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Fill in: Ravi is ___ than Amit. (tall)</div><div class="pqa">taller</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Fill in: Mount Everest is ___ mountain in the world. (high)</div><div class="pqa">the highest</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Fill in: This bag is ___ than that one. (heavy)</div><div class="pqa">heavier</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Fill in: She is the ___ girl in the class. (clever)</div><div class="pqa">cleverest (or "most clever")</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Fix the mistake: <em>My sister is more taller than me.</em></div><div class="pqa">My sister is taller than me.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Fix the mistake: <em>This is the most good book I've read.</em></div><div class="pqa">This is the best book I've read.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Fill in: Meena is as ___ as Riya. (smart)</div><div class="pqa">smart (equal comparison keeps the plain word)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> Pick the right word: He ran ___ than all the others. (far / farther / farthest)</div><div class="pqa">farther (comparing him with the others)</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. beautiful, red
-2. number (it tells how many)
-3. (a) taller (b) bigger (c) happier (d) more beautiful
-4. (a) largest (b) best (c) worst (d) most
-5. taller
-6. the highest
-7. heavier
-8. cleverest (or "most clever")
-9. My sister is taller than me.
-10. This is the best book I've read.
-11. smart (equal comparison keeps the plain word)
-12. farther (comparing him with the others)
-</details>
 
 ## Quick card
 
@@ -108,3 +94,5 @@ Adjectives change when you compare things. There are three steps:
 - Never use *more* and *-er* together
 
 Back: [Antonyms and Synonyms](3-antonyms-and-synonyms.md) · Next: [Prepositions](5-prepositions.md)
+
+<script src="../assets/prep.js" defer></script>

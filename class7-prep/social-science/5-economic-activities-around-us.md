@@ -64,31 +64,19 @@ Each depends on the others. This is **interdependence**.
 
 ## Practice (do these on paper)
 
-1. What is an economic activity?
-2. What is the difference between a need and a want? Give one example of each.
-3. What is the difference between goods and services?
-4. Name the three kinds of economic activity.
-5. Which kind is each: (a) farmer (b) tailor (c) teacher (d) fisherman (e) shopkeeper (f) factory worker?
-6. Who is a producer? Who is a consumer?
-7. Give an example of how a farmer, a baker and a shopkeeper depend on each other.
-8. What is barter? Why was money invented?
-9. What kind of work do most people in villages do?
-10. Why is a doctor's work called a service?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What is an economic activity?</div><div class="pqa">Any work done to earn a living or to make or provide things people need.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> What is the difference between a need and a want? Give one example of each.</div><div class="pqa">A need can't be done without (food). A want is nice to have (a toy).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> What is the difference between goods and services?</div><div class="pqa">Goods are things you can touch (rice, a book). Services are work done for others (teaching, driving).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Name the three kinds of economic activity.</div><div class="pqa">Primary, secondary and tertiary.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Which kind is each: (a) farmer (b) tailor (c) teacher (d) fisherman (e) shopkeeper (f) factory worker?</div><div class="pqa">(a) primary (b) secondary (c) tertiary (d) primary (e) tertiary (f) secondary</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Who is a producer? Who is a consumer?</div><div class="pqa">A producer makes goods or provides services. A consumer uses them.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Give an example of how a farmer, a baker and a shopkeeper depend on each other.</div><div class="pqa">The farmer grows wheat, the baker uses the flour to bake bread, and the shopkeeper sells it. Each one needs the others.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> What is barter? Why was money invented?</div><div class="pqa">Barter is swapping goods directly. Money was invented because barter only works if each person wants what the other has.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> What kind of work do most people in villages do?</div><div class="pqa">Primary work, mostly farming.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Why is a doctor's work called a service?</div><div class="pqa">A doctor doesn't make a thing. They do work that helps people stay healthy.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Any work done to earn a living or to make or provide things people need.
-2. A need can't be done without (food). A want is nice to have (a toy).
-3. Goods are things you can touch (rice, a book). Services are work done for others (teaching, driving).
-4. Primary, secondary and tertiary.
-5. (a) primary (b) secondary (c) tertiary (d) primary (e) tertiary (f) secondary
-6. A producer makes goods or provides services. A consumer uses them.
-7. The farmer grows wheat, the baker uses the flour to bake bread, and the shopkeeper sells it. Each one needs the others.
-8. Barter is swapping goods directly. Money was invented because barter only works if each person wants what the other has.
-9. Primary work, mostly farming.
-10. A doctor doesn't make a thing. They do work that helps people stay healthy.
-</details>
 
 ## Quick card
 
@@ -99,3 +87,5 @@ Each depends on the others. This is **interdependence**.
 - Barter: swapping. Money: makes exchange easy.
 
 Back: [Grassroots Democracy](4-grassroots-democracy.md) · Back to [Social Science](index.md)
+
+<script src="../assets/prep.js" defer></script>

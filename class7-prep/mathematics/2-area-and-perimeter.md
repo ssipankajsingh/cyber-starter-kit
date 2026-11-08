@@ -78,33 +78,20 @@ Perimeter = 2 × (50 + 30) = 160 m. Cost = 160 × 20 = **₹3,200**.
 
 ## Practice (do these on paper)
 
-Use π = 22/7 unless told otherwise.
+<div class="practice">
+<p class="pnote">Use π = 22/7 unless told otherwise.</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> A square has a side of 9 m. Find its perimeter and area.</div><div class="pqa">Perimeter = 4 × 9 = 36 m. Area = 9 × 9 = 81 m².</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> The perimeter of a square is 48 cm. Find its side and its area.</div><div class="pqa">Side = 48 ÷ 4 = 12 cm. Area = 12 × 12 = 144 cm².</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> The area of a rectangle is 96 cm² and its length is 12 cm. Find its breadth and its perimeter.</div><div class="pqa">Breadth = 96 ÷ 12 = 8 cm. Perimeter = 2 × (12 + 8) = 40 cm.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> A parallelogram has a base of 8 cm and a height of 5 cm. Find its area.</div><div class="pqa">8 × 5 = 40 cm².</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> The area of a triangle is 70 cm² and its base is 14 cm. Find its height.</div><div class="pqa">½ × 14 × h = 70, so 7 × h = 70, so h = 10 cm.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> A circle has radius 14 cm. Find its circumference and area.</div><div class="pqa">Circumference = 2 × 22/7 × 14 = 88 cm. Area = 22/7 × 14 × 14 = 616 cm².</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> A wire 44 cm long is bent into a circle. Find the radius of the circle.</div><div class="pqa">2 × 22/7 × r = 44, so r = 44 × 7 ÷ 44 = 7 cm.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> A room is 6 m long and 4 m wide. How many square tiles, each 50 cm by 50 cm, are needed to cover the floor?</div><div class="pqa">Floor = 6 m × 4 m = 24 m² = 24 × 10,000 = 2,40,000 cm². One tile = 50 × 50 = 2,500 cm². Tiles = 2,40,000 ÷ 2,500 = <strong>96</strong>.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> A rectangular park is 50 m by 30 m. A fence goes round it and costs ₹20 per metre. Find the total cost.</div><div class="pqa">Perimeter = 2 × (50 + 30) = 160 m. Cost = 160 × 20 = ₹3,200.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> A rectangle is 15 cm by 8 cm. Find its perimeter.</div><div class="pqa">2 × (15 + 8) = 46 cm.</div></div>
+</div>
 
-1. A square has a side of 9 m. Find its perimeter and area.
-2. The perimeter of a square is 48 cm. Find its side and its area.
-3. The area of a rectangle is 96 cm² and its length is 12 cm. Find its breadth and its perimeter.
-4. A parallelogram has a base of 8 cm and a height of 5 cm. Find its area.
-5. The area of a triangle is 70 cm² and its base is 14 cm. Find its height.
-6. A circle has radius 14 cm. Find its circumference and area.
-7. A wire 44 cm long is bent into a circle. Find the radius of the circle.
-8. A room is 6 m long and 4 m wide. How many square tiles, each 50 cm by 50 cm, are needed to cover the floor?
-9. A rectangular park is 50 m by 30 m. A fence goes round it and costs ₹20 per metre. Find the total cost.
-10. A rectangle is 15 cm by 8 cm. Find its perimeter.
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Perimeter = 4 × 9 = 36 m. Area = 9 × 9 = 81 m².
-2. Side = 48 ÷ 4 = 12 cm. Area = 12 × 12 = 144 cm².
-3. Breadth = 96 ÷ 12 = 8 cm. Perimeter = 2 × (12 + 8) = 40 cm.
-4. 8 × 5 = 40 cm².
-5. ½ × 14 × h = 70, so 7 × h = 70, so h = 10 cm.
-6. Circumference = 2 × 22/7 × 14 = 88 cm. Area = 22/7 × 14 × 14 = 616 cm².
-7. 2 × 22/7 × r = 44, so r = 44 × 7 ÷ 44 = 7 cm.
-8. Floor = 6 m × 4 m = 24 m² = 24 × 10,000 = 2,40,000 cm². One tile = 50 × 50 = 2,500 cm². Tiles = 2,40,000 ÷ 2,500 = **96**.
-9. Perimeter = 2 × (50 + 30) = 160 m. Cost = 160 × 20 = ₹3,200.
-10. 2 × (15 + 8) = 46 cm.
-</details>
 
 ## Formula card
 
@@ -116,3 +103,5 @@ Use π = 22/7 unless told otherwise.
 - 1 m² = 10,000 cm²
 
 Back: [Exponents and Powers](1-exponents-and-powers.md) · Next: [Algebraic Expressions](3-algebraic-expressions.md)
+
+<script src="../assets/prep.js" defer></script>

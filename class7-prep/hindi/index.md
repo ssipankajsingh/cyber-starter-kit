@@ -22,6 +22,8 @@ Hindi is 10 marks, with 2 marks for each topic. These pages are written in **Hin
 
 **[Hindi क्विज़ दीजिए](../quiz.html?subject=hindi)** (the Hindi quiz) has 25 questions, 5 per topic. It marks itself and explains every answer.
 
+**[Hindi flashcards](../flashcards.html?deck=hindi)** (तत्सम-तद्भव, पर्यायवाची, विलोम, एक शब्द, अशुद्धि संशोधन): कार्ड पलटिए, फिर "Got it" या "Again" चुनिए।
+
 ## हिन्दी की तैयारी कैसे करें
 
 - **रोज़ 10 शब्द सीखिए।** पर्यायवाची, विलोम और एक शब्द वाली सूचियाँ पूरी तरह याद करने वाली हैं। एक दिन में पूरी सूची नहीं, रोज़ थोड़ी।
@@ -30,3 +32,5 @@ Hindi is 10 marks, with 2 marks for each topic. These pages are written in **Hin
 - **अपनी गलतियों की सूची बनाइए।** अशुद्धि संशोधन में जो शब्द गलत हो जाए, उसे लिखकर रखिए।
 - **हिन्दी पढ़िए।** अख़बार, कहानी या बाल पत्रिका पढ़ने से सही वर्तनी अपने-आप आँखों में बैठ जाती है।
 - **मात्राओं पर ध्यान दीजिए।** हिन्दी में बहुत-सी गलतियाँ छोटी-बड़ी मात्रा की होती हैं।
+
+<script src="../assets/prep.js" defer></script>

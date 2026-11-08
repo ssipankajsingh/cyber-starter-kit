@@ -69,31 +69,19 @@ From **largest to smallest**:
 
 ## Practice (do these on paper)
 
-1. What percent of Earth is covered by water?
-2. Name the seven continents.
-3. Which is the largest continent? Which is the smallest?
-4. Name the five oceans, from largest to smallest.
-5. Which ocean is named after a country?
-6. Which ocean is the deepest? What is its deepest part called?
-7. On which continent is India?
-8. Which two continents does the equator pass through?
-9. Which continent is covered in ice?
-10. What is the equator?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What percent of Earth is covered by water?</div><div class="pqa">About 71%.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Name the seven continents.</div><div class="pqa">Asia, Africa, North America, South America, Antarctica, Europe, Australia.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Which is the largest continent? Which is the smallest?</div><div class="pqa">Asia is the largest. Australia is the smallest.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Name the five oceans, from largest to smallest.</div><div class="pqa">Pacific, Atlantic, Indian, Southern, Arctic.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Which ocean is named after a country?</div><div class="pqa">The Indian Ocean (named after India).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Which ocean is the deepest? What is its deepest part called?</div><div class="pqa">The Pacific Ocean. Its deepest part is the Mariana Trench.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> On which continent is India?</div><div class="pqa">Asia.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Which two continents does the equator pass through?</div><div class="pqa">Africa and South America.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Which continent is covered in ice?</div><div class="pqa">Antarctica.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> What is the equator?</div><div class="pqa">An imaginary line around the middle of Earth that divides it into the Northern and Southern Hemispheres.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. About 71%.
-2. Asia, Africa, North America, South America, Antarctica, Europe, Australia.
-3. Asia is the largest. Australia is the smallest.
-4. Pacific, Atlantic, Indian, Southern, Arctic.
-5. The Indian Ocean (named after India).
-6. The Pacific Ocean. Its deepest part is the Mariana Trench.
-7. Asia.
-8. Africa and South America.
-9. Antarctica.
-10. An imaginary line around the middle of Earth that divides it into the Northern and Southern Hemispheres.
-</details>
 
 ## Quick card
 
@@ -103,3 +91,5 @@ From **largest to smallest**:
 - Pacific: biggest and deepest. Arctic: smallest. Indian: named after India.
 
 Next: [Land Forms and Life](2-land-forms-and-life.md)
+
+<script src="../assets/prep.js" defer></script>

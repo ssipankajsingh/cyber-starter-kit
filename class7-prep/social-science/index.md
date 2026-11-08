@@ -28,3 +28,5 @@ Social Science is 15 marks, with 3 marks per topic. That's the smallest of the b
 - **Make small cards.** A question on the front and the answer on the back. Flip through them on the bus, at lunch or before bed.
 - **Write short answers in your own words.** In a 3-mark answer, aim for three clear points.
 - **Check your textbook.** For things where books differ (like how many oceans there are), follow what your school textbook says.
+
+<script src="../assets/prep.js" defer></script>

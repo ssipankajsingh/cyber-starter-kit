@@ -96,37 +96,22 @@ Time = 90 ÷ 45 = **2 hours**.
 
 ## Practice (do these on paper)
 
-1. Convert 3.5 km into metres.
-2. Convert 250 cm into metres.
-3. Convert 45 mm into centimetres.
-4. A car goes 150 km in 3 hours. Find its speed.
-5. A girl cycles 300 m in 50 s. Find her speed in m/s.
-6. A bus runs at 60 km/h for 2.5 hours. How far does it go?
-7. How long does a train at 60 km/h take to cover 180 km?
-8. Convert 54 km/h into m/s.
-9. Convert 20 m/s into km/h.
-10. Name the type of motion: (a) a ceiling fan (b) a swing (c) a car on a straight road (d) a stone whirled on a string.
-11. Why do we use standard units to measure length?
-12. How would you measure the length of a curved path on a map?
-13. A boy walks 2 km in 30 minutes. What's his speed in km/h?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Convert 3.5 km into metres.</div><div class="pqa">3.5 × 1000 = 3500 m</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Convert 250 cm into metres.</div><div class="pqa">250 ÷ 100 = 2.5 m</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Convert 45 mm into centimetres.</div><div class="pqa">45 ÷ 10 = 4.5 cm</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> A car goes 150 km in 3 hours. Find its speed.</div><div class="pqa">150 ÷ 3 = 50 km/h</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> A girl cycles 300 m in 50 s. Find her speed in m/s.</div><div class="pqa">300 ÷ 50 = 6 m/s</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> A bus runs at 60 km/h for 2.5 hours. How far does it go?</div><div class="pqa">60 × 2.5 = 150 km</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> How long does a train at 60 km/h take to cover 180 km?</div><div class="pqa">180 ÷ 60 = 3 hours</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Convert 54 km/h into m/s.</div><div class="pqa">54 × 5/18 = 15 m/s</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Convert 20 m/s into km/h.</div><div class="pqa">20 × 18/5 = 72 km/h</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Name the type of motion: (a) a ceiling fan (b) a swing (c) a car on a straight road (d) a stone whirled on a string.</div><div class="pqa">(a) rotational (b) oscillatory (to and fro) (c) rectilinear (straight line) (d) circular</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Why do we use standard units to measure length?</div><div class="pqa">A hand-span or foot differs from person to person. A standard unit gives the same measurement for everyone.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> How would you measure the length of a curved path on a map?</div><div class="pqa">Lay a thread along the curve, straighten it, and measure it against a ruler.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> A boy walks 2 km in 30 minutes. What's his speed in km/h?</div><div class="pqa">30 minutes is 0.5 hour, so speed = 2 ÷ 0.5 = 4 km/h.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. 3.5 × 1000 = 3500 m
-2. 250 ÷ 100 = 2.5 m
-3. 45 ÷ 10 = 4.5 cm
-4. 150 ÷ 3 = 50 km/h
-5. 300 ÷ 50 = 6 m/s
-6. 60 × 2.5 = 150 km
-7. 180 ÷ 60 = 3 hours
-8. 54 × 5/18 = 15 m/s
-9. 20 × 18/5 = 72 km/h
-10. (a) rotational (b) oscillatory (to and fro) (c) rectilinear (straight line) (d) circular
-11. A hand-span or foot differs from person to person. A standard unit gives the same measurement for everyone.
-12. Lay a thread along the curve, straighten it, and measure it against a ruler.
-13. 30 minutes is 0.5 hour, so speed = 2 ÷ 0.5 = 4 km/h.
-</details>
 
 ## Quick card
 
@@ -136,3 +121,5 @@ Time = 90 ÷ 45 = **2 hours**.
 - km/h → m/s: × 5/18. m/s → km/h: × 18/5.
 
 Back: [Methods of Separation](3-methods-of-separation.md) · Next: [Diversity in the Living World](5-diversity-in-the-living-world.md)
+
+<script src="../assets/prep.js" defer></script>

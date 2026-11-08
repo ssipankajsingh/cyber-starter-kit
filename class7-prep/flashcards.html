@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 Prep Flashcards</title>
+<style>
+  :root { --bg:#ffffff; --text:#1f2933; --muted:#52606d; --card:#f5f7fa; --line:#d9e2ec;
+          --accent:#157878; --good:#1b7f3b; --warn:#a15c00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141a1f; --text:#e4e9ee; --muted:#a3b0bd; --card:#1d252c; --line:#34414d;
+            --accent:#4fc3c3; --good:#6fd08c; --warn:#ffb454; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.55 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:20px 16px 60px; }
+  nav a { color:var(--accent); }
+  h1 { margin:.6em 0 .2em; font-size:1.7rem; }
+  .note { color:var(--muted); margin:0 0 1em; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:16px 0; }
+  select, button { font:inherit; padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--text); }
+  button { cursor:pointer; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600; }
+  button.good { border-color:var(--good); color:var(--good); font-weight:600; }
+  button.again { border-color:var(--warn); color:var(--warn); font-weight:600; }
+  button:focus-visible, select:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+  #card { display:block; width:100%; min-height:200px; margin:14px 0; padding:24px 20px; text-align:center;
+          font-size:1.35rem; line-height:1.5; background:var(--card); border:2px solid var(--line); border-radius:16px; }
+  #card.back { border-color:var(--accent); }
+  #card .hint { display:block; margin-top:14px; font-size:.85rem; color:var(--muted); }
+  #card .side { display:block; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+  .meter { height:10px; background:var(--line); border-radius:99px; overflow:hidden; margin:8px 0 4px; }
+  .meter i { display:block; height:100%; width:0; background:var(--good); transition:width .3s; }
+  .hidden { display:none; }
+  #summary { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin:16px 0; font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="./">← Class 7 prep home</a> · <a id="backlink" href="./">Subject page</a></nav>
+  <h1 id="title">Flashcards</h1>
+  <p class="note">Unofficial study aid, not made by the school. Tap the card to flip it. Mark each one <b>Got it</b> or <b>Again</b>. Cards you keep getting right are retired. Your progress is saved on this device only.</p>
+
+  <div class="controls">
+    <label for="group">Set:</label>
+    <select id="group"></select>
+    <button class="primary" id="start" type="button">Start</button>
+    <button id="reset" type="button">Reset this deck</button>
+  </div>
+  <p id="status" role="status"></p>
+  <div class="meter" aria-hidden="true"><i id="fill"></i></div>
+
+  <button id="card" class="hidden" type="button" aria-live="polite"></button>
+  <div class="controls hidden" id="answer-row">
+    <button class="good" id="got" type="button">Got it</button>
+    <button class="again" id="again" type="button">Again</button>
+  </div>
+  <div id="summary" class="hidden" role="status"></div>
+</main>
+
+<script src="assets/prep.js"></script>
+<script>
+(function () {
+  var params = new URLSearchParams(location.search);
+  var deckName = (params.get("deck") || "mathematics").toLowerCase().replace(/[^a-z-]/g, "");
+  var $ = function (id) { return document.getElementById(id); };
+  var deck = null, boxes = {}, cards = [], queue = [], current = null, flipped = false;
+  var MASTERED = 2;
+
+  // "a^{m+n}" or "10^5" -> text with real superscripts, built from safe DOM nodes.
+  function addText(parent, text) {
+    text.split(/(\^\{[^}]*\}|\^\d+)/).forEach(function (part) {
+      if (/^\^\{[^}]*\}$/.test(part) || /^\^\d+$/.test(part)) {
+        var sup = document.createElement("sup");
+        sup.textContent = part.charAt(1) === "{" ? part.slice(2, -1) : part.slice(1);
+        parent.appendChild(sup);
+      } else if (part) {
+        parent.appendChild(document.createTextNode(part));
+      }
+    });
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function store() { if (window.C7) { C7.saveCards(deckName, boxes); } }
+
+  function inScope() {
+    var v = $("group").value;
+    return cards.filter(function (c) { return v === "all" || String(c.g) === v; });
+  }
+  function updateStatus() {
+    var scope = inScope();
+    var done = scope.filter(function (c) { return (boxes[c.id] || 0) >= MASTERED; }).length;
+    $("status").textContent = "Mastered " + done + " of " + scope.length + " cards in this set.";
+    $("fill").style.width = scope.length ? Math.round(done / scope.length * 100) + "%" : "0%";
+  }
+
+  function showCard() {
+    var card = $("card");
+    card.textContent = "";
+    if (!current) { return; }
+    var side = document.createElement("span");
+    side.className = "side";
+    side.textContent = flipped ? "Answer" : "Question";
+    card.appendChild(side);
+    addText(card, flipped ? current.b : current.f);
+    if (!flipped) {
+      var hint = document.createElement("span");
+      hint.className = "hint";
+      hint.textContent = "Tap to flip";
+      card.appendChild(hint);
+    }
+    card.classList.toggle("back", flipped);
+    $("answer-row").classList.toggle("hidden", !flipped);
+  }
+  function next() {
+    current = queue.shift() || null;
+    flipped = false;
+    if (!current) { finish(); return; }
+    showCard();
+    updateStatus();
+  }
+  function finish() {
+    $("card").classList.add("hidden");
+    $("answer-row").classList.add("hidden");
+    var scope = inScope();
+    var done = scope.filter(function (c) { return (boxes[c.id] || 0) >= MASTERED; }).length;
+    var s = $("summary");
+    s.classList.remove("hidden");
+    s.textContent = done === scope.length
+      ? "You've mastered every card in this set. Come back in a few days to see if you still remember them."
+      : "Round complete. You've mastered " + done + " of " + scope.length + ". Press Start to go through the rest.";
+    updateStatus();
+  }
+  function start() {
+    $("summary").classList.add("hidden");
+    queue = shuffle(inScope().filter(function (c) { return (boxes[c.id] || 0) < MASTERED; }));
+    if (!queue.length) {
+      $("card").classList.add("hidden");
+      $("answer-row").classList.add("hidden");
+      var s = $("summary");
+      s.classList.remove("hidden");
+      s.textContent = "You've already mastered every card in this set. Use \"Reset this deck\" to practise them again.";
+      updateStatus();
+      return;
+    }
+    $("card").classList.remove("hidden");
+    next();
+  }
+  function answer(gotIt) {
+    if (!current) { return; }
+    var b = boxes[current.id] || 0;
+    b = gotIt ? Math.min(b + 1, MASTERED) : 0;
+    boxes[current.id] = b;
+    store();
+    if (window.C7) { C7.markActive(); }
+    if (b < MASTERED) {
+      // bring it back later in this round: sooner if you missed it
+      var pos = Math.min(queue.length, gotIt ? 5 : 2);
+      queue.splice(pos, 0, current);
+    }
+    next();
+  }
+
+  fetch("data/cards-" + deckName + ".json")
+    .then(function (r) { if (!r.ok) { throw new Error(r.status); } return r.json(); })
+    .then(function (d) {
+      deck = d;
+      $("title").textContent = d.title;
+      document.title = d.title + " | Class 7 Prep";
+      if (d.back) { $("backlink").href = d.back; }
+      boxes = window.C7 ? C7.getCards(deckName) : {};
+      var sel = $("group");
+      var all = document.createElement("option");
+      all.value = "all"; all.textContent = "All sets"; sel.appendChild(all);
+      d.groups.forEach(function (g, gi) {
+        var o = document.createElement("option");
+        o.value = String(gi); o.textContent = g.name; sel.appendChild(o);
+        g.cards.forEach(function (c, ci) { cards.push({ id: gi + "-" + ci, g: gi, f: c[0], b: c[1] }); });
+      });
+      updateStatus();
+    })
+    .catch(function () {
+      $("status").textContent = "The flashcards couldn't load. If you opened this file straight from your computer, open it from the website instead.";
+      $("start").disabled = true;
+      $("reset").disabled = true;
+    });
+
+  $("start").addEventListener("click", start);
+  $("group").addEventListener("change", function () {
+    $("card").classList.add("hidden"); $("answer-row").classList.add("hidden"); $("summary").classList.add("hidden");
+    updateStatus();
+  });
+  $("card").addEventListener("click", function () { if (current) { flipped = !flipped; showCard(); } });
+  $("got").addEventListener("click", function () { answer(true); });
+  $("again").addEventListener("click", function () { answer(false); });
+  $("reset").addEventListener("click", function () {
+    if (!window.confirm("Forget your progress on this deck and start again?")) { return; }
+    boxes = {}; store();
+    $("card").classList.add("hidden"); $("answer-row").classList.add("hidden"); $("summary").classList.add("hidden");
+    updateStatus();
+  });
+})();
+</script>
+</body>
+</html>

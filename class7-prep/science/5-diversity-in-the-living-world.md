@@ -101,35 +101,21 @@ The biggest split: does the animal have a **backbone**?
 
 ## Practice (do these on paper)
 
-1. Give three signs that something is living.
-2. What is a habitat? Name two kinds.
-3. What is an adaptation? Give an example for a camel.
-4. Name the plant group: (a) mango (b) rose (c) pumpkin (d) pea (e) mint.
-5. What's the difference between a vertebrate and an invertebrate?
-6. Name the five groups of vertebrates.
-7. Which group has feathers?
-8. How does a frog's breathing change as it grows?
-9. Why is a whale a mammal and not a fish?
-10. How many legs does an insect have? How many does a spider have?
-11. Why is a bat not a bird?
-12. How does a cactus survive in the desert?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Give three signs that something is living.</div><div class="pqa">Any three: needs food and air, grows, responds to surroundings, moves, makes waste, reproduces, dies.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> What is a habitat? Name two kinds.</div><div class="pqa">The place where a living thing lives. Terrestrial (land) and aquatic (water).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> What is an adaptation? Give an example for a camel.</div><div class="pqa">A feature that helps a living thing survive in its habitat. Camel: stores fat in its hump (or has wide feet for sand, or loses very little water).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Name the plant group: (a) mango (b) rose (c) pumpkin (d) pea (e) mint.</div><div class="pqa">(a) tree (b) shrub (c) creeper (d) climber (e) herb</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> What's the difference between a vertebrate and an invertebrate?</div><div class="pqa">A vertebrate has a backbone. An invertebrate doesn't.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Name the five groups of vertebrates.</div><div class="pqa">Fish, amphibians, reptiles, birds, mammals.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Which group has feathers?</div><div class="pqa">Birds.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> How does a frog's breathing change as it grows?</div><div class="pqa">A young frog (tadpole) breathes with gills. An adult frog breathes with lungs (and through its skin).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Why is a whale a mammal and not a fish?</div><div class="pqa">It breathes air with lungs, gives birth to its young, and feeds them milk.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> How many legs does an insect have? How many does a spider have?</div><div class="pqa">An insect has 6 legs. A spider has 8.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Why is a bat not a bird?</div><div class="pqa">A bat has fur, gives birth and feeds milk. These are mammal features, even though it flies.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> How does a cactus survive in the desert?</div><div class="pqa">Its thick stem stores water, and its leaves are spines that stop it losing water.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Any three: needs food and air, grows, responds to surroundings, moves, makes waste, reproduces, dies.
-2. The place where a living thing lives. Terrestrial (land) and aquatic (water).
-3. A feature that helps a living thing survive in its habitat. Camel: stores fat in its hump (or has wide feet for sand, or loses very little water).
-4. (a) tree (b) shrub (c) creeper (d) climber (e) herb
-5. A vertebrate has a backbone. An invertebrate doesn't.
-6. Fish, amphibians, reptiles, birds, mammals.
-7. Birds.
-8. A young frog (tadpole) breathes with gills. An adult frog breathes with lungs (and through its skin).
-9. It breathes air with lungs, gives birth to its young, and feeds them milk.
-10. An insect has 6 legs. A spider has 8.
-11. A bat has fur, gives birth and feeds milk. These are mammal features, even though it flies.
-12. Its thick stem stores water, and its leaves are spines that stop it losing water.
-</details>
 
 ## Quick card
 
@@ -140,3 +126,5 @@ The biggest split: does the animal have a **backbone**?
 - Habitat = where it lives. Adaptation = how its body helps it live there.
 
 Back: [Motion and Measurement of Distance](4-motion-and-measurement-of-distance.md) · Back to [Science](index.md)
+
+<script src="../assets/prep.js" defer></script>

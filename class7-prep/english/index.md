@@ -29,3 +29,5 @@ The English paper in this syllabus is all grammar, and it's 25 marks. Grammar is
 - **Cross out the wrong options.** In a multiple-choice question, two answers are usually clearly wrong. Remove them first.
 - **Keep a "mistakes list".** Write each wrong answer and the correct one. Read it the night before the exam.
 - **Learn 5 new words a day** for synonyms and antonyms. Write each with its opposite.
+
+<script src="../assets/prep.js" defer></script>

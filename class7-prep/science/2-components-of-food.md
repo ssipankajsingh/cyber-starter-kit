@@ -87,35 +87,21 @@ A **balanced diet** has all the nutrients in the right amounts: cereals for ener
 
 ## Practice (do these on paper)
 
-1. Name the two nutrients that give us energy.
-2. Which nutrient is called "body-building"?
-3. Name a deficiency disease caused by a lack of (a) vitamin C (b) vitamin D (c) iodine (d) iron.
-4. What happens to a food if it contains starch and you add iodine?
-5. Which test shows that a food has protein?
-6. How do you test for fat in a food?
-7. Which vitamin do we get from sunlight?
-8. Why is roughage important, even though it gives no nutrients?
-9. What is a balanced diet?
-10. Why shouldn't you wash vegetables after cutting them?
-11. Name two foods rich in calcium.
-12. A child has trouble seeing in dim light. Which vitamin is missing, and which foods would help?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Name the two nutrients that give us energy.</div><div class="pqa">Carbohydrates and fats.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Which nutrient is called "body-building"?</div><div class="pqa">Proteins.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Name a deficiency disease caused by a lack of (a) vitamin C (b) vitamin D (c) iodine (d) iron.</div><div class="pqa">(a) scurvy (b) rickets (c) goitre (d) anaemia</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> What happens to a food if it contains starch and you add iodine?</div><div class="pqa">It turns blue-black.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Which test shows that a food has protein?</div><div class="pqa">Add copper sulphate and caustic soda. It turns violet.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> How do you test for fat in a food?</div><div class="pqa">Rub it on paper. It leaves an oily patch that light passes through.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Which vitamin do we get from sunlight?</div><div class="pqa">Vitamin D.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Why is roughage important, even though it gives no nutrients?</div><div class="pqa">It helps food move through the body and prevents constipation.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> What is a balanced diet?</div><div class="pqa">A diet with all the nutrients in the right amounts.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Why shouldn't you wash vegetables after cutting them?</div><div class="pqa">Cutting opens the vegetable, so vitamins wash out in the water.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Name two foods rich in calcium.</div><div class="pqa">Milk and curd (also green vegetables).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> A child has trouble seeing in dim light. Which vitamin is missing, and which foods would help?</div><div class="pqa">Vitamin A (night blindness). Carrots, papaya, milk and eggs.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. Carbohydrates and fats.
-2. Proteins.
-3. (a) scurvy (b) rickets (c) goitre (d) anaemia
-4. It turns blue-black.
-5. Add copper sulphate and caustic soda. It turns violet.
-6. Rub it on paper. It leaves an oily patch that light passes through.
-7. Vitamin D.
-8. It helps food move through the body and prevents constipation.
-9. A diet with all the nutrients in the right amounts.
-10. Cutting opens the vegetable, so vitamins wash out in the water.
-11. Milk and curd (also green vegetables).
-12. Vitamin A (night blindness). Carrots, papaya, milk and eggs.
-</details>
 
 ## Quick card
 
@@ -125,3 +111,5 @@ A **balanced diet** has all the nutrients in the right amounts: cereals for ener
 - Balanced diet = all nutrients in the right amounts.
 
 Back: [Temperature and its Measurement](1-temperature-and-its-measurement.md) · Next: [Methods of Separation](3-methods-of-separation.md)
+
+<script src="../assets/prep.js" defer></script>

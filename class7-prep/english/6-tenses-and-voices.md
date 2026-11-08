@@ -90,47 +90,27 @@ A **tense** shows *when* something happens: now (present), before (past) or late
 
 ## Practice (do these on paper)
 
-Name the tense:
-1. She is singing a song.
-2. They had left before I arrived.
-3. I will visit my grandmother tomorrow.
-4. He has been working since 9 a.m.
+<div class="practice">
+<p class="pgroup">Name the tense:</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> She is singing a song.</div><div class="pqa">present continuous</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> They had left before I arrived.</div><div class="pqa">past perfect</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> I will visit my grandmother tomorrow.</div><div class="pqa">simple future</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> He has been working since 9 a.m.</div><div class="pqa">present perfect continuous</div></div>
+<p class="pgroup">Fill in the correct form:</p>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> The sun ___ (rise) in the east.</div><div class="pqa">rises</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> We ___ (play) football when it started to rain.</div><div class="pqa">were playing</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> By next year, she ___ (finish) school.</div><div class="pqa">will have finished</div></div>
+<p class="pgroup">Change to passive:</p>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Mohan eats an apple.</div><div class="pqa">An apple is eaten by Mohan.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> The children are watching a film.</div><div class="pqa">A film is being watched by the children.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> The farmer ploughed the field.</div><div class="pqa">The field was ploughed by the farmer.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> They will complete the work.</div><div class="pqa">The work will be completed by them.</div></div>
+<p class="pgroup">Change to active:</p>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> The window was broken by the boy.</div><div class="pqa">The boy broke the window.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> The letter has been posted by me.</div><div class="pqa">I have posted the letter.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> Why can't <em>She sleeps</em> be made passive?</div><div class="pqa">It has no object, so there is nothing to move to the front.</div></div>
+</div>
 
-Fill in the correct form:
-5. The sun ___ (rise) in the east.
-6. We ___ (play) football when it started to rain.
-7. By next year, she ___ (finish) school.
-
-Change to passive:
-8. Mohan eats an apple.
-9. The children are watching a film.
-10. The farmer ploughed the field.
-11. They will complete the work.
-
-Change to active:
-12. The window was broken by the boy.
-13. The letter has been posted by me.
-
-14. Why can't *She sleeps* be made passive?
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. present continuous
-2. past perfect
-3. simple future
-4. present perfect continuous
-5. rises
-6. were playing
-7. will have finished
-8. An apple is eaten by Mohan.
-9. A film is being watched by the children.
-10. The field was ploughed by the farmer.
-11. The work will be completed by them.
-12. The boy broke the window.
-13. I have posted the letter.
-14. It has no object, so there is nothing to move to the front.
-</details>
 
 ## Quick card
 
@@ -140,3 +120,5 @@ Change to active:
 - Change pronouns: I → me, he → him, she → her, we → us, they → them
 
 Back: [Prepositions](5-prepositions.md) · Back to [English](index.md)
+
+<script src="../assets/prep.js" defer></script>

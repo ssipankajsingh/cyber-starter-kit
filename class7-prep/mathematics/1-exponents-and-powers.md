@@ -84,39 +84,23 @@ Decimal after the first digit: 2.50000. We moved 5 places. So 2.5 × 10<sup>5</s
 
 ## Practice (do these on paper)
 
-1. Write 3 × 3 × 3 × 3 using an exponent.
-2. Find the value of 2<sup>6</sup>.
-3. Which is bigger, 3<sup>4</sup> or 4<sup>3</sup>?
-4. Simplify 5<sup>3</sup> × 5<sup>4</sup>.
-5. Simplify 8<sup>9</sup> ÷ 8<sup>7</sup> and find its value.
-6. Simplify (2<sup>3</sup>)<sup>4</sup> and find its value.
-7. Simplify 2<sup>5</sup> × 5<sup>5</sup>.
-8. Simplify 12<sup>4</sup> ÷ 3<sup>4</sup> and find its value.
-9. What is 25<sup>0</sup>?
-10. Find x: 3<sup>x</sup> × 3<sup>2</sup> = 3<sup>7</sup>.
-11. Simplify (3<sup>2</sup> × 3<sup>5</sup>) ÷ 3<sup>4</sup> and find its value.
-12. Write 3,60,000 in standard form.
-13. Write 7.5 × 10<sup>4</sup> as an ordinary number.
-14. A number is 2<sup>3</sup> × 3<sup>2</sup>. What is the number?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Write 3 × 3 × 3 × 3 using an exponent.</div><div class="pqa">3<sup>4</sup></div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Find the value of 2<sup>6</sup>.</div><div class="pqa">64</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Which is bigger, 3<sup>4</sup> or 4<sup>3</sup>?</div><div class="pqa">3<sup>4</sup> = 81, and 4<sup>3</sup> = 64. So <strong>3<sup>4</sup></strong> is bigger.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Simplify 5<sup>3</sup> × 5<sup>4</sup>.</div><div class="pqa">5<sup>7</sup> (which is 78,125)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Simplify 8<sup>9</sup> ÷ 8<sup>7</sup> and find its value.</div><div class="pqa">8<sup>2</sup> = 64</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Simplify (2<sup>3</sup>)<sup>4</sup> and find its value.</div><div class="pqa">2<sup>12</sup> = 4096</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Simplify 2<sup>5</sup> × 5<sup>5</sup>.</div><div class="pqa">(2 × 5)<sup>5</sup> = 10<sup>5</sup> = 1,00,000</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Simplify 12<sup>4</sup> ÷ 3<sup>4</sup> and find its value.</div><div class="pqa">(12 ÷ 3)<sup>4</sup> = 4<sup>4</sup> = 256</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> What is 25<sup>0</sup>?</div><div class="pqa">1</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Find x: 3<sup>x</sup> × 3<sup>2</sup> = 3<sup>7</sup>.</div><div class="pqa">x + 2 = 7, so x = 5</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Simplify (3<sup>2</sup> × 3<sup>5</sup>) ÷ 3<sup>4</sup> and find its value.</div><div class="pqa">3<sup>2+5−4</sup> = 3<sup>3</sup> = 27</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> Write 3,60,000 in standard form.</div><div class="pqa">3.6 × 10<sup>5</sup></div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> Write 7.5 × 10<sup>4</sup> as an ordinary number.</div><div class="pqa">75,000</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> A number is 2<sup>3</sup> × 3<sup>2</sup>. What is the number?</div><div class="pqa">8 × 9 = 72</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. 3<sup>4</sup>
-2. 64
-3. 3<sup>4</sup> = 81, and 4<sup>3</sup> = 64. So **3<sup>4</sup>** is bigger.
-4. 5<sup>7</sup> (which is 78,125)
-5. 8<sup>2</sup> = 64
-6. 2<sup>12</sup> = 4096
-7. (2 × 5)<sup>5</sup> = 10<sup>5</sup> = 1,00,000
-8. (12 ÷ 3)<sup>4</sup> = 4<sup>4</sup> = 256
-9. 1
-10. x + 2 = 7, so x = 5
-11. 3<sup>2+5−4</sup> = 3<sup>3</sup> = 27
-12. 3.6 × 10<sup>5</sup>
-13. 75,000
-14. 8 × 9 = 72
-</details>
 
 ## Formula card
 
@@ -129,3 +113,5 @@ Decimal after the first digit: 2.50000. We moved 5 places. So 2.5 × 10<sup>5</s
 - Standard form: a number between 1 and 10, times a power of 10
 
 Next: [Area and Perimeter](2-area-and-perimeter.md)
+
+<script src="../assets/prep.js" defer></script>

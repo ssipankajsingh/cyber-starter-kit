@@ -85,31 +85,19 @@ The angle opposite is also **50°**. The two angles beside it are each 180 − 5
 
 ## Practice (do these on paper)
 
-1. Find the complement of 40°.
-2. Find the supplement of 75°.
-3. Two complementary angles are x and (x + 20°). Find both.
-4. Two supplementary angles are in the ratio 2 : 3. Find them.
-5. Two straight lines cross and one angle is 35°. Find the other three angles.
-6. A linear pair is made of x and 2x. Find x.
-7. Two parallel lines are cut by a transversal. One of a pair of corresponding angles is 70°. What is the other?
-8. Two parallel lines are cut by a transversal. One co-interior angle is 80°. What is the other?
-9. Two angles of a triangle are 40° and 70°. Find the third angle.
-10. What is the angle between the hands of a clock at 3 o'clock?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Find the complement of 40°.</div><div class="pqa">90 − 40 = 50°</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Find the supplement of 75°.</div><div class="pqa">180 − 75 = 105°</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Two complementary angles are x and (x + 20°). Find both.</div><div class="pqa">x + x + 20 = 90, so 2x = 70, so x = 35. The angles are <strong>35° and 55°</strong>.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Two supplementary angles are in the ratio 2 : 3. Find them.</div><div class="pqa">The 5 parts add to 180°, so 1 part = 36°. The angles are 2 × 36 = <strong>72°</strong> and 3 × 36 = <strong>108°</strong>.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Two straight lines cross and one angle is 35°. Find the other three angles.</div><div class="pqa">Opposite angle = 35°. The other two = 180 − 35 = <strong>145°</strong> each.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> A linear pair is made of x and 2x. Find x.</div><div class="pqa">x + 2x = 180, so x = 60 (and the other angle is 120°).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Two parallel lines are cut by a transversal. One of a pair of corresponding angles is 70°. What is the other?</div><div class="pqa">70° (corresponding angles are equal)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Two parallel lines are cut by a transversal. One co-interior angle is 80°. What is the other?</div><div class="pqa">180 − 80 = 100°</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Two angles of a triangle are 40° and 70°. Find the third angle.</div><div class="pqa">180 − 40 − 70 = 70°</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> What is the angle between the hands of a clock at 3 o'clock?</div><div class="pqa">90°</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. 90 − 40 = 50°
-2. 180 − 75 = 105°
-3. x + x + 20 = 90, so 2x = 70, so x = 35. The angles are **35° and 55°**.
-4. The 5 parts add to 180°, so 1 part = 36°. The angles are 2 × 36 = **72°** and 3 × 36 = **108°**.
-5. Opposite angle = 35°. The other two = 180 − 35 = **145°** each.
-6. x + 2x = 180, so x = 60 (and the other angle is 120°).
-7. 70° (corresponding angles are equal)
-8. 180 − 80 = 100°
-9. 180 − 40 − 70 = 70°
-10. 90°
-</details>
 
 ## Formula card
 
@@ -121,3 +109,5 @@ The angle opposite is also **50°**. The two angles beside it are each 180 − 5
 - Angles of a triangle: sum = 180°
 
 Back: [Comparing Quantities](4-comparing-quantities.md) · Back to [Mathematics](index.md)
+
+<script src="../assets/prep.js" defer></script>

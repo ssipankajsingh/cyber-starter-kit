@@ -69,41 +69,24 @@ A **determiner** is a word that goes in front of a noun to tell you *which one* 
 
 ## Practice (do these on paper)
 
-Fill in the blank with **a, an, the**, or **—** (no article), or with the right determiner.
+<div class="practice">
+<p class="pnote">Fill in the blank with <strong>a, an, the</strong>, or <strong>—</strong> (no article), or with the right determiner.</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> She ate ___ apple.</div><div class="pqa">an (apple starts with a vowel sound)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> We waited for ___ hour.</div><div class="pqa">an (the h in hour is silent)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> He goes to ___ university in Delhi.</div><div class="pqa">a (university starts with a "yoo" sound)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> ___ sun rises in the east.</div><div class="pqa">The (there is only one sun)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> ___ Ganga is a holy river.</div><div class="pqa">The (rivers take "the")</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> My sister plays ___ guitar.</div><div class="pqa">the (musical instrument)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> We have ___ breakfast at 8 o'clock.</div><div class="pqa">— (no article before meals)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> There isn't ___ milk left. (some / any)</div><div class="pqa">any (negative sentence)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> How ___ books do you have? (many / much)</div><div class="pqa">many (books can be counted)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> How ___ water is in the jug? (many / much)</div><div class="pqa">much (water can't be counted)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> She has ___ friends, so she often feels lonely. (few / a few)</div><div class="pqa">few (it means hardly any, which fits "lonely")</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> ___ books on the shelf are mine. (This / These)</div><div class="pqa">These (plural: books)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> ___ student in the class got a prize. (Every / All)</div><div class="pqa">Every (followed by a singular noun)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> Is there ___ pen on the desk? (a / an) The pen is black.</div><div class="pqa">a (the sound of "pen" is a consonant). Then "The pen" is correct, because we already mentioned it.</div></div>
+</div>
 
-1. She ate ___ apple. 
-2. We waited for ___ hour.
-3. He goes to ___ university in Delhi.
-4. ___ sun rises in the east.
-5. ___ Ganga is a holy river.
-6. My sister plays ___ guitar.
-7. We have ___ breakfast at 8 o'clock.
-8. There isn't ___ milk left. (some / any)
-9. How ___ books do you have? (many / much)
-10. How ___ water is in the jug? (many / much)
-11. She has ___ friends, so she often feels lonely. (few / a few)
-12. ___ books on the shelf are mine. (This / These)
-13. ___ student in the class got a prize. (Every / All)
-14. Is there ___ pen on the desk? (a / an) The pen is black.
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. an (apple starts with a vowel sound)
-2. an (the h in hour is silent)
-3. a (university starts with a "yoo" sound)
-4. The (there is only one sun)
-5. The (rivers take "the")
-6. the (musical instrument)
-7. — (no article before meals)
-8. any (negative sentence)
-9. many (books can be counted)
-10. much (water can't be counted)
-11. few (it means hardly any, which fits "lonely")
-12. These (plural: books)
-13. Every (followed by a singular noun)
-14. a (the sound of "pen" is a consonant). Then "The pen" is correct, because we already mentioned it.
-</details>
 
 ## Quick card
 
@@ -114,3 +97,5 @@ Fill in the blank with **a, an, the**, or **—** (no article), or with the righ
 - each / every + singular noun
 
 Next: [Nouns and Pronouns](2-nouns-and-pronouns.md)
+
+<script src="../assets/prep.js" defer></script>

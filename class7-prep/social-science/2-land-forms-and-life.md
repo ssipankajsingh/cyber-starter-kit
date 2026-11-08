@@ -67,31 +67,19 @@ Plains support the most people, because farming is easy, and transport and build
 
 ## Practice (do these on paper)
 
-1. What is a landform?
-2. Name the three types of mountains. Give one example of fold mountains.
-3. What is a plateau? Name one in India.
-4. How are plains formed? Why are they good for farming?
-5. Why do mountains have few people?
-6. Which landform is best for building cities, and why?
-7. Name a desert in India.
-8. Name two groups of islands that belong to India.
-9. Why are plateaus important for industry?
-10. How does a mountain help people (give two ways)?
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> What is a landform?</div><div class="pqa">A natural shape of the land, like a mountain, plateau or plain.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Name the three types of mountains. Give one example of fold mountains.</div><div class="pqa">Fold, block and volcanic. Himalayas (or the Alps) are fold mountains.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> What is a plateau? Name one in India.</div><div class="pqa">A high, flat-topped area of land. The Deccan Plateau.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> How are plains formed? Why are they good for farming?</div><div class="pqa">Rivers carry soil and spread it out. The soil is fertile and there's water, so farming is easy.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> Why do mountains have few people?</div><div class="pqa">They're steep and cold, with little flat land to farm or build on.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> Which landform is best for building cities, and why?</div><div class="pqa">Plains. They're flat, so roads, railways and buildings are cheap and easy to build, and farming nearby provides food.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> Name a desert in India.</div><div class="pqa">The Thar Desert (Rajasthan).</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> Name two groups of islands that belong to India.</div><div class="pqa">Andaman and Nicobar Islands, and Lakshadweep.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Why are plateaus important for industry?</div><div class="pqa">They are rich in minerals like coal and iron, which factories use.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> How does a mountain help people (give two ways)?</div><div class="pqa">Any two: forests and timber, tourism, rivers for hydroelectricity, water for the plains below, fruit orchards.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. A natural shape of the land, like a mountain, plateau or plain.
-2. Fold, block and volcanic. Himalayas (or the Alps) are fold mountains.
-3. A high, flat-topped area of land. The Deccan Plateau.
-4. Rivers carry soil and spread it out. The soil is fertile and there's water, so farming is easy.
-5. They're steep and cold, with little flat land to farm or build on.
-6. Plains. They're flat, so roads, railways and buildings are cheap and easy to build, and farming nearby provides food.
-7. The Thar Desert (Rajasthan).
-8. Andaman and Nicobar Islands, and Lakshadweep.
-9. They are rich in minerals like coal and iron, which factories use.
-10. Any two: forests and timber, tourism, rivers for hydroelectricity, water for the plains below, fruit orchards.
-</details>
 
 ## Quick card
 
@@ -100,3 +88,5 @@ Plains support the most people, because farming is easy, and transport and build
 - Plains: most people. Plateaus: minerals. Mountains and deserts: few people.
 
 Back: [Oceans and Continents](1-oceans-and-continents.md) · Next: [Timeline and Sources of History](3-timeline-and-sources-of-history.md)
+
+<script src="../assets/prep.js" defer></script>

@@ -88,40 +88,24 @@ description: कक्षा 7 प्रवेश तैयारी, 2 अं�
 
 ## अभ्यास (कॉपी में कीजिए)
 
-इन वाक्यांशों के लिए एक शब्द लिखिए:
-1. जो ईश्वर में विश्वास रखता हो।
-2. जिसका कोई शत्रु न हो।
-3. जो सब कुछ जानता हो।
-4. जिसके माता-पिता न हों।
-5. जो आकाश में उड़ता हो।
-6. जो जल में रहता हो।
-7. जो मांस नहीं खाता।
-8. जिसका अंत न हो।
-9. जो कभी न मरे।
-10. जो दिखाई न दे।
-11. जो बहुत बोलता हो।
-12. जो अपने देश से प्रेम करता हो।
-13. जिसे जीता न जा सके।
-14. जो उपकार को न माने।
+<div class="practice">
+<p class="pgroup">इन वाक्यांशों के लिए एक शब्द लिखिए:</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> जो ईश्वर में विश्वास रखता हो।</div><div class="pqa">आस्तिक</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> जिसका कोई शत्रु न हो।</div><div class="pqa">अजातशत्रु</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> जो सब कुछ जानता हो।</div><div class="pqa">सर्वज्ञ</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> जिसके माता-पिता न हों।</div><div class="pqa">अनाथ</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> जो आकाश में उड़ता हो।</div><div class="pqa">नभचर</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> जो जल में रहता हो।</div><div class="pqa">जलचर</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> जो मांस नहीं खाता।</div><div class="pqa">शाकाहारी</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> जिसका अंत न हो।</div><div class="pqa">अनंत</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> जो कभी न मरे।</div><div class="pqa">अमर</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> जो दिखाई न दे।</div><div class="pqa">अदृश्य</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> जो बहुत बोलता हो।</div><div class="pqa">वाचाल</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> जो अपने देश से प्रेम करता हो।</div><div class="pqa">देशभक्त</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> जिसे जीता न जा सके।</div><div class="pqa">अजेय</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> जो उपकार को न माने।</div><div class="pqa">कृतघ्न</div></div>
+</div>
 
-<details>
-<summary>उत्तर देखिए (पहले खुद कोशिश कीजिए!)</summary>
-
-1. आस्तिक
-2. अजातशत्रु
-3. सर्वज्ञ
-4. अनाथ
-5. नभचर
-6. जलचर
-7. शाकाहारी
-8. अनंत
-9. अमर
-10. अदृश्य
-11. वाचाल
-12. देशभक्त
-13. अजेय
-14. कृतघ्न
-</details>
 
 ## संक्षेप
 
@@ -130,3 +114,5 @@ description: कक्षा 7 प्रवेश तैयारी, 2 अं�
 - समूह बनाकर और कहानी में जोड़कर याद कीजिए
 
 पिछला: [अशुद्धि संशोधन](4-ashuddhi-sanshodhan.md) · वापस: [हिन्दी](index.md)
+
+<script src="../assets/prep.js" defer></script>

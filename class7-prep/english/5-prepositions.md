@@ -83,41 +83,24 @@ Many words need one particular preposition after them. Learn these as pairs:
 
 ## Practice (do these on paper)
 
-Fill in the blank with the right preposition.
+<div class="practice">
+<p class="pnote">Fill in the blank with the right preposition.</p>
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> The class starts ___ 8 o'clock.</div><div class="pqa">at</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> My birthday is ___ 12 March.</div><div class="pqa">on</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> We go on holiday ___ summer.</div><div class="pqa">in</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> I have been waiting here ___ two hours.</div><div class="pqa">for</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> She has lived in Kurukshetra ___ 2019.</div><div class="pqa">since</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> The cat is hiding ___ the sofa. (below it)</div><div class="pqa">under (or below)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> The book is ___ the table. (on the surface)</div><div class="pqa">on</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> The ball rolled ___ the road to the other side.</div><div class="pqa">across</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> Share the sweets ___ the four children.</div><div class="pqa">among (more than two)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> The school is ___ the bank and the post office.</div><div class="pqa">between (two things)</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> She is afraid ___ the dark.</div><div class="pqa">of</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> He is good ___ maths.</div><div class="pqa">at</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">13.</span> Please listen ___ your teacher.</div><div class="pqa">to</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">14.</span> We travelled to Delhi ___ train.</div><div class="pqa">by</div></div>
+</div>
 
-1. The class starts ___ 8 o'clock.
-2. My birthday is ___ 12 March.
-3. We go on holiday ___ summer.
-4. I have been waiting here ___ two hours.
-5. She has lived in Kurukshetra ___ 2019.
-6. The cat is hiding ___ the sofa. (below it)
-7. The book is ___ the table. (on the surface)
-8. The ball rolled ___ the road to the other side.
-9. Share the sweets ___ the four children.
-10. The school is ___ the bank and the post office.
-11. She is afraid ___ the dark.
-12. He is good ___ maths.
-13. Please listen ___ your teacher.
-14. We travelled to Delhi ___ train.
-
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. at
-2. on
-3. in
-4. for
-5. since
-6. under (or below)
-7. on
-8. across
-9. among (more than two)
-10. between (two things)
-11. of
-12. at
-13. to
-14. by
-</details>
 
 ## Quick card
 
@@ -128,3 +111,5 @@ Fill in the blank with the right preposition.
 - afraid of, good at, interested in, angry with, listen to, wait for
 
 Back: [Adjectives](4-adjectives.md) · Next: [Tenses and Voices](6-tenses-and-voices.md)
+
+<script src="../assets/prep.js" defer></script>

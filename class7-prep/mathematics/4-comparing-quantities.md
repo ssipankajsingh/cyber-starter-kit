@@ -87,35 +87,21 @@ Discount = 10/100 × 500 = ₹50. You pay 500 − 50 = **₹450**.
 
 ## Practice (do these on paper)
 
-1. Write 15 : 25 in simplest form.
-2. Find the ratio of 40 cm to 1 m.
-3. Find 20% of 150.
-4. Change 3/5 to a percentage.
-5. In a class of 40 students, 15 are girls. What percent are girls? How many boys are there?
-6. A ₹500 shirt has a 10% discount. What do you pay?
-7. If 8 pens cost ₹96, what do 5 pens cost?
-8. A toy was bought for ₹200 and sold for ₹250. Find the profit %.
-9. A bag was bought for ₹500 and sold for ₹450. Find the loss %.
-10. Find the simple interest on ₹1,000 at 10% per year for 2 years.
-11. Find the simple interest and the amount on ₹1,500 at 8% per year for 2 years.
-12. 20% of a number is 30. Find the number.
+<div class="practice">
+<div class="pq"><div class="pqt"><span class="pqn">1.</span> Write 15 : 25 in simplest form.</div><div class="pqa">3 : 5</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">2.</span> Find the ratio of 40 cm to 1 m.</div><div class="pqa">40 : 100 = 2 : 5</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">3.</span> Find 20% of 150.</div><div class="pqa">20/100 × 150 = 30</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">4.</span> Change 3/5 to a percentage.</div><div class="pqa">3/5 × 100 = 60%</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">5.</span> In a class of 40 students, 15 are girls. What percent are girls? How many boys are there?</div><div class="pqa">15/40 × 100 = 37.5%. Boys = 40 − 15 = 25.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">6.</span> A ₹500 shirt has a 10% discount. What do you pay?</div><div class="pqa">₹450</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">7.</span> If 8 pens cost ₹96, what do 5 pens cost?</div><div class="pqa">₹60</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">8.</span> A toy was bought for ₹200 and sold for ₹250. Find the profit %.</div><div class="pqa">Profit = ₹50. Profit % = 50/200 × 100 = 25%.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">9.</span> A bag was bought for ₹500 and sold for ₹450. Find the loss %.</div><div class="pqa">Loss = ₹50. Loss % = 50/500 × 100 = 10%.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">10.</span> Find the simple interest on ₹1,000 at 10% per year for 2 years.</div><div class="pqa">1000 × 10 × 2 ÷ 100 = ₹200</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">11.</span> Find the simple interest and the amount on ₹1,500 at 8% per year for 2 years.</div><div class="pqa">SI = 1500 × 8 × 2 ÷ 100 = ₹240. Amount = 1500 + 240 = ₹1,740.</div></div>
+<div class="pq"><div class="pqt"><span class="pqn">12.</span> 20% of a number is 30. Find the number.</div><div class="pqa">20% of the number = 30, so 1% = 30 ÷ 20 = 1.5, and 100% = <strong>150</strong>.</div></div>
+</div>
 
-<details>
-<summary>Show the answers (try first!)</summary>
-
-1. 3 : 5
-2. 40 : 100 = 2 : 5
-3. 20/100 × 150 = 30
-4. 3/5 × 100 = 60%
-5. 15/40 × 100 = 37.5%. Boys = 40 − 15 = 25.
-6. ₹450
-7. ₹60
-8. Profit = ₹50. Profit % = 50/200 × 100 = 25%.
-9. Loss = ₹50. Loss % = 50/500 × 100 = 10%.
-10. 1000 × 10 × 2 ÷ 100 = ₹200
-11. SI = 1500 × 8 × 2 ÷ 100 = ₹240. Amount = 1500 + 240 = ₹1,740.
-12. 20% of the number = 30, so 1% = 30 ÷ 20 = 1.5, and 100% = **150**.
-</details>
 
 ## Formula card
 
@@ -126,3 +112,5 @@ Discount = 10/100 × 500 = ₹50. You pay 500 − 50 = **₹450**.
 - Amount = P + SI
 
 Back: [Algebraic Expressions](3-algebraic-expressions.md) · Next: [Lines and Angles](5-lines-and-angles.md)
+
+<script src="../assets/prep.js" defer></script>
