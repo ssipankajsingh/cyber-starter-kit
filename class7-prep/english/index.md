@@ -23,6 +23,8 @@ The English paper in this syllabus is all grammar, and it's 25 marks. Grammar is
 
 **[Practise with English flashcards](../flashcards.html?deck=english)**: the facts and word lists, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
 
+**[Play the matching game](../match.html?deck=english)**: tap to pair each word or fact with its match.
+
 ## How to get better at grammar fast
 
 - **Read aloud.** Your ear often knows the right answer before your brain does. "She go to school" sounds wrong. Trust that feeling, then find out why.

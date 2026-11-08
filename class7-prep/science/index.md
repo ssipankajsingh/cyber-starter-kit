@@ -22,6 +22,10 @@ Science is 25 marks, 5 for each topic. Science questions usually ask one of thre
 
 **[Practise with Science flashcards](../flashcards.html?deck=science)**: the facts and word lists, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
 
+**[Play the matching game](../match.html?deck=science)**: tap to pair each word or fact with its match.
+
+**[Open the Playground](../playground.html)**: try the speed and temperature pictures.
+
 ## How to study Science
 
 - **Know the "why".** Don't just learn that the clinical thermometer has a kink. Learn *why* it has one. Examiners love "why" questions.

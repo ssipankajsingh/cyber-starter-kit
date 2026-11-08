@@ -28,6 +28,10 @@ Do it the day *after* you study a chapter, not straight away.
 
 **[Practise with Maths flashcards](../flashcards.html?deck=mathematics)**: every formula and key fact, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
 
+**[Play the matching game](../match.html?deck=mathematics)**: tap to pair each word or fact with its match.
+
+**[Open the Playground](../playground.html)**: move sliders to see angles, area, speed and temperature change.
+
 ## How to score full marks in Maths
 
 - **Learn the formulas on a card.** Maths marks are lost to forgotten formulas more than to hard thinking. Each chapter page ends with a "formula card" you can copy.

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 Prep Playground</title>
+<style>
+  :root { --bg:#ffffff; --text:#1f2933; --muted:#52606d; --card:#f5f7fa; --line:#d9e2ec;
+          --accent:#157878; --warm:#c2410c; --fill:rgba(21,120,120,.25); }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141a1f; --text:#e4e9ee; --muted:#a3b0bd; --card:#1d252c; --line:#34414d;
+            --accent:#4fc3c3; --warm:#ff9a62; --fill:rgba(79,195,195,.28); }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.5 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:20px 16px 60px; }
+  nav a { color:var(--accent); }
+  h1 { margin:.6em 0 .2em; font-size:1.7rem; }
+  h2 { font-size:1.25rem; margin:0 0 .3em; }
+  .note { color:var(--muted); margin:0 0 1em; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin:18px 0; }
+  label { display:block; margin:10px 0 2px; font-weight:600; }
+  input[type=range] { width:100%; accent-color:var(--accent); }
+  input[type=number] { font:inherit; width:7em; padding:6px 10px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); }
+  input:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+  svg { width:100%; height:auto; max-height:260px; display:block; margin:8px auto; }
+  svg text { fill:var(--text); font:14px system-ui, sans-serif; }
+  .out { font-weight:600; margin:6px 0 0; }
+  .sub { color:var(--muted); font-weight:400; }
+  .row { display:flex; gap:14px; flex-wrap:wrap; align-items:end; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="./">← Class 7 prep home</a></nav>
+  <h1>Playground</h1>
+  <p class="note">Move the sliders and watch what changes. These are for understanding, not for marks, so play with them for a few minutes before you do the practice questions.</p>
+
+  <section id="angles">
+    <h2>Angles: Maths, Lines and Angles</h2>
+    <label for="ang">Angle: <span id="ang-v">60</span>°</label>
+    <input id="ang" type="range" min="0" max="360" value="60">
+    <svg viewBox="0 0 300 200" role="img" aria-label="An angle drawn between two rays">
+      <path id="ang-arc" fill="var(--fill)" stroke="none"></path>
+      <line x1="150" y1="100" x2="270" y2="100" stroke="var(--text)" stroke-width="3"/>
+      <line id="ang-ray" x1="150" y1="100" x2="270" y2="100" stroke="var(--accent)" stroke-width="3"/>
+      <circle cx="150" cy="100" r="4" fill="var(--text)"/>
+    </svg>
+    <p class="out" id="ang-t"></p>
+    <p class="out sub" id="ang-s"></p>
+  </section>
+
+  <section id="rect">
+    <h2>Area and perimeter: Maths</h2>
+    <label for="rl">Length: <span id="rl-v">6</span> units</label>
+    <input id="rl" type="range" min="1" max="10" value="6">
+    <label for="rw">Breadth: <span id="rw-v">4</span> units</label>
+    <input id="rw" type="range" min="1" max="10" value="4">
+    <svg id="rsvg" viewBox="0 0 300 220" role="img" aria-label="A rectangle drawn on a grid"></svg>
+    <p class="out" id="r-a"></p>
+    <p class="out" id="r-p"></p>
+    <p class="out sub">Area counts the squares inside. Perimeter is the walk around the edge.</p>
+  </section>
+
+  <section id="sdt">
+    <h2>Speed, distance and time: Science</h2>
+    <div class="row">
+      <div><label for="sd">Distance (km)</label><input id="sd" type="number" min="0" step="any" value="120"></div>
+      <div><label for="st">Time (hours)</label><input id="st" type="number" min="0.01" step="any" value="2"></div>
+    </div>
+    <svg viewBox="0 0 300 80" role="img" aria-label="A car on a road">
+      <line x1="10" y1="60" x2="290" y2="60" stroke="var(--muted)" stroke-width="3" stroke-dasharray="10 8"/>
+      <g id="car"><rect x="0" y="34" width="44" height="18" rx="5" fill="var(--accent)"/><rect x="10" y="24" width="22" height="12" rx="4" fill="var(--accent)"/><circle cx="11" cy="54" r="6" fill="var(--text)"/><circle cx="33" cy="54" r="6" fill="var(--text)"/></g>
+    </svg>
+    <p class="out" id="s-km"></p>
+    <p class="out" id="s-ms"></p>
+    <p class="out sub">Speed = distance ÷ time. To go from km/h to m/s, multiply by 5/18.</p>
+  </section>
+
+  <section id="temp">
+    <h2>Temperature: Science</h2>
+    <label for="tc">Celsius: <span id="tc-v">37</span> °C</label>
+    <input id="tc" type="range" min="-10" max="110" value="37">
+    <svg viewBox="0 0 300 90" role="img" aria-label="A thermometer bar">
+      <rect x="20" y="30" width="260" height="22" rx="11" fill="none" stroke="var(--muted)" stroke-width="2"/>
+      <rect id="tbar" x="22" y="32" width="100" height="18" rx="9" fill="var(--warm)"/>
+      <text x="20" y="76">−10</text><text x="95" y="76">0</text><text x="260" y="76">110</text>
+    </svg>
+    <p class="out" id="t-f"></p>
+    <p class="out" id="t-k"></p>
+    <p class="out sub" id="t-n"></p>
+  </section>
+</main>
+
+<script src="assets/prep.js"></script>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var NS = "http://www.w3.org/2000/svg";
+  var used = false;
+  function touch() { if (!used && window.C7) { used = true; C7.markActive(); } }
+
+  // ---- angles ----
+  function angles() {
+    var a = +$("ang").value, rad = a * Math.PI / 180, cx = 150, cy = 100, r = 120;
+    $("ang-v").textContent = a;
+    var x = cx + r * Math.cos(-rad), y = cy + r * Math.sin(-rad);
+    var ray = $("ang-ray"); ray.setAttribute("x2", x.toFixed(1)); ray.setAttribute("y2", y.toFixed(1));
+    var rr = 40, ex = cx + rr * Math.cos(-rad), ey = cy + rr * Math.sin(-rad);
+    var large = a > 180 ? 1 : 0;
+    $("ang-arc").setAttribute("d", a === 0 ? "" : a === 360
+      ? "M " + (cx + rr) + " " + cy + " A " + rr + " " + rr + " 0 1 0 " + (cx - rr) + " " + cy + " A " + rr + " " + rr + " 0 1 0 " + (cx + rr) + " " + cy
+      : "M " + cx + " " + cy + " L " + (cx + rr) + " " + cy + " A " + rr + " " + rr + " 0 " + large + " 0 " + ex.toFixed(1) + " " + ey.toFixed(1) + " Z");
+    var t = a === 0 ? "Zero angle" : a < 90 ? "Acute angle (less than 90°)" : a === 90 ? "Right angle (exactly 90°)" :
+      a < 180 ? "Obtuse angle (between 90° and 180°)" : a === 180 ? "Straight angle (exactly 180°)" :
+      a < 360 ? "Reflex angle (between 180° and 360°)" : "Complete angle (360°)";
+    $("ang-t").textContent = t;
+    var s = [];
+    if (a > 0 && a < 90) { s.push("Complementary angle (adds to 90°): " + (90 - a) + "°"); }
+    if (a > 0 && a < 180) { s.push("Supplementary angle (adds to 180°): " + (180 - a) + "°"); }
+    s.push("Where two lines cross, the angle opposite this one is also " + a + "°.");
+    $("ang-s").textContent = s.join("  ·  ");
+  }
+  $("ang").addEventListener("input", function () { angles(); touch(); });
+
+  // ---- rectangle ----
+  function rect() {
+    var l = +$("rl").value, w = +$("rw").value, u = 20, ox = 20, oy = 10;
+    $("rl-v").textContent = l; $("rw-v").textContent = w;
+    var svg = $("rsvg"); svg.textContent = "";
+    function el(n, at) { var e = document.createElementNS(NS, n); for (var k in at) { e.setAttribute(k, at[k]); } svg.appendChild(e); return e; }
+    el("rect", { x: ox, y: oy, width: l * u, height: w * u, fill: "var(--fill)" });
+    for (var i = 0; i <= l; i++) { el("line", { x1: ox + i * u, y1: oy, x2: ox + i * u, y2: oy + w * u, stroke: "var(--muted)", "stroke-width": 0.6 }); }
+    for (var j = 0; j <= w; j++) { el("line", { x1: ox, y1: oy + j * u, x2: ox + l * u, y2: oy + j * u, stroke: "var(--muted)", "stroke-width": 0.6 }); }
+    el("rect", { x: ox, y: oy, width: l * u, height: w * u, fill: "none", stroke: "var(--accent)", "stroke-width": 3 });
+    $("r-a").textContent = "Area = " + l + " × " + w + " = " + (l * w) + " square units";
+    $("r-p").textContent = "Perimeter = 2 × (" + l + " + " + w + ") = " + (2 * (l + w)) + " units";
+  }
+  ["rl", "rw"].forEach(function (id) { $(id).addEventListener("input", function () { rect(); touch(); }); });
+
+  // ---- speed distance time ----
+  function round2(n) { return Math.round(n * 100) / 100; }
+  function sdt() {
+    var d = parseFloat($("sd").value), t = parseFloat($("st").value);
+    if (!(d >= 0) || !(t > 0)) { $("s-km").textContent = "Enter a distance and a time above 0."; $("s-ms").textContent = ""; return; }
+    var v = d / t;
+    $("s-km").textContent = "Speed = " + d + " ÷ " + t + " = " + round2(v) + " km/h";
+    $("s-ms").textContent = "In m/s: " + round2(v) + " × 5/18 = " + round2(v * 5 / 18) + " m/s";
+    var pos = Math.min(v / 120, 1) * 240;
+    $("car").setAttribute("transform", "translate(" + (10 + pos).toFixed(1) + ",0)");
+  }
+  ["sd", "st"].forEach(function (id) { $(id).addEventListener("input", function () { sdt(); touch(); }); });
+
+  // ---- temperature ----
+  function temp() {
+    var c = +$("tc").value;
+    $("tc-v").textContent = c;
+    $("t-f").textContent = c + " °C = " + c + " × 9/5 + 32 = " + round2(c * 9 / 5 + 32) + " °F";
+    $("t-k").textContent = c + " °C = " + c + " + 273 = " + (c + 273) + " K";
+    $("tbar").setAttribute("width", ((c + 10) / 120 * 256).toFixed(1));
+    $("t-n").textContent = c === 0 ? "Water freezes here." : c === 100 ? "Water boils here." :
+      c === 37 ? "Normal human body temperature." : c < 0 ? "Below freezing." : c > 100 ? "Above boiling." : "";
+  }
+  $("tc").addEventListener("input", function () { temp(); touch(); });
+
+  angles(); rect(); sdt(); temp();
+})();
+</script>
+</body>
+</html>

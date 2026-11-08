@@ -42,6 +42,8 @@ Every topic page has notes, memory tips, common mistakes, practice questions wit
 
 **Flashcards** for the facts and word lists: [English](flashcards.html?deck=english), [Maths](flashcards.html?deck=mathematics), [Science](flashcards.html?deck=science), [Social Science](flashcards.html?deck=social-science) and [Hindi](flashcards.html?deck=hindi). Your streak, stars and scores are saved on your own device only. The quizzes mark themselves and explain each answer.
 
+**Games:** matching games for [English](match.html?deck=english), [Maths](match.html?deck=mathematics), [Science](match.html?deck=science), [Social Science](match.html?deck=social-science) and [Hindi](match.html?deck=hindi). Or open the [Playground](playground.html) to move sliders and see angles, area, speed and temperature change.
+
 ## How to use a chapter
 
 1. **Read the notes** (about 15 minutes). Don't try to memorise yet.

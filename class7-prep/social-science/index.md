@@ -22,6 +22,8 @@ Social Science is 15 marks, with 3 marks per topic. That's the smallest of the b
 
 **[Practise with Social Science flashcards](../flashcards.html?deck=social-science)**: the facts and word lists, one card at a time. Tap to flip, then mark it *Got it* or *Again*.
 
+**[Play the matching game](../match.html?deck=social-science)**: tap to pair each word or fact with its match.
+
 ## How to study Social Science
 
 - **Learn the lists:** the 7 continents, the 5 oceans, the 3 levels of Panchayati Raj. Say them aloud until you can say them without thinking.
